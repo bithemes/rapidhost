@@ -11,8 +11,6 @@
 - Bootstrap 3.3.7
 - Responsive
 - 100% Validate Code
-- Well-documented
 - Validate Code with Cross-Browser Compatibility
-- Support 24/7
  
  You can see demo at: https://www.bithemes.com/demo/rapidhost/index.html

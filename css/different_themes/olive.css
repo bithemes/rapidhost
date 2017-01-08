@@ -1,0 +1,4857 @@
+/* This file contains global variables used in other .scss files */
+/*#ff1616; /*#fc6220; /*#0686c7; /* Main theme color */
+/* Contact Background Color (used in web,vps,dedicated,ssl and domains) */
+/* Dark shade of main theme color */
+/* Main body color */
+/* Paragraph text color */
+/* Bestseller Background Color */
+/* VPS Background Color */
+/* Slider Bullet Color */
+/* Blog Styles */
+/* line 2, compass/_blog.scss */
+section.rh_blog_posts {
+  background: #6b9a35;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 14, compass/_blog.scss */
+.rh_blog_post {
+  margin: 20px 0;
+  padding: 0;
+  text-align: left;
+  background: #fff;
+}
+
+/* line 21, compass/_blog.scss */
+.rh_blog_content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* line 28, compass/_blog.scss */
+.rh_blog_content p {
+  color: #333;
+}
+
+/* line 32, compass/_blog.scss */
+.rh_blog_post img {
+  width: 100%;
+  border-bottom: 5px solid #86bf44;
+}
+
+/* line 37, compass/_blog.scss */
+.rh_blog_post h2 {
+  margin: 0;
+  color: #333;
+  font-family: 'Muli', sans-serif;
+}
+
+/* line 43, compass/_blog.scss */
+.rh_blog_post p {
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* line 48, compass/_blog.scss */
+a.rh_blog_info {
+  margin: 15px 10px 15px 0;
+  color: #aaa;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  transition: .1s all linear;
+}
+
+/* line 58, compass/_blog.scss */
+a.rh_blog_info:hover {
+  color: #86bf44;
+}
+
+/* line 62, compass/_blog.scss */
+a.rh_blog_more {
+  outline: 2px solid #86bf44;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 5px 5px 0;
+  display: inline-block;
+  color: #86bf44;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 72, compass/_blog.scss */
+a.rh_blog_more:hover {
+  background: #86bf44;
+  color: #fff;
+}
+
+/* line 77, compass/_blog.scss */
+.rh_blog_nav a {
+  display: inline-block;
+  color: #86bf44;
+  font-size: 24px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  -webkit-box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+/* line 90, compass/_blog.scss */
+.rh_blog_nav a:hover {
+  background: #f6f6f6;
+  color: #6b9a35;
+}
+
+/* End of Blog Styles */
+/* Blog Post Styles */
+/* line 97, compass/_blog.scss */
+section.rh_blog_each {
+  border-top: 5px solid #86bf44;
+  background: #6b9a35;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 110, compass/_blog.scss */
+.rh_blog_full {
+  margin: 20px 0;
+  padding: 0;
+  text-align: left;
+  background: #fff;
+}
+
+/* line 117, compass/_blog.scss */
+.rh_blog_full img {
+  width: 100%;
+  border-bottom: 5px solid #86bf44;
+}
+
+/* line 122, compass/_blog.scss */
+.rh_blog_full h2:first-of-type {
+  margin: 0;
+  color: #333;
+  font-family: 'Muli', sans-serif;
+}
+
+/* line 128, compass/_blog.scss */
+.rh_blog_full p:first-of-type {
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* line 133, compass/_blog.scss */
+section.rh_blog_each .rh_blog_content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* line 140, compass/_blog.scss */
+section.rh_blog_each a.rh_blog_info {
+  margin: 15px 10px 15px 0;
+  color: #aaa;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  transition: .1s all linear;
+}
+
+/* line 150, compass/_blog.scss */
+section.rh_blog_each a.rh_blog_tag {
+  margin: 15px 0 15px 0;
+  color: #aaa;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  transition: .1s all linear;
+}
+
+/* line 160, compass/_blog.scss */
+section.rh_blog_each a.rh_blog_info:hover, section.rh_blog_each a.rh_blog_tag:hover {
+  color: #86bf44;
+}
+
+/* line 164, compass/_blog.scss */
+.rh_blog_share {
+  text-align: right;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+/* line 171, compass/_blog.scss */
+.rh_blog_share a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #86bf44;
+  text-align: center;
+  transition: .1s all linear;
+}
+
+/* line 184, compass/_blog.scss */
+.rh_blog_share a:hover {
+  background: #6b9a35;
+  color: #fff;
+}
+
+/* Blog Post Comments */
+/* line 190, compass/_blog.scss */
+.rh_blog_comments {
+  margin: 0 0 20px 0;
+  padding: 20px;
+  text-align: left;
+  background: #fff;
+  color: #666;
+}
+
+/* line 198, compass/_blog.scss */
+.rh_blog_comments h2 {
+  text-align: center;
+}
+
+/* line 202, compass/_blog.scss */
+.rh_blog_comment {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 207, compass/_blog.scss */
+.rh_blog_comment h3 {
+  font-size: 20px;
+}
+
+/* line 211, compass/_blog.scss */
+.rh_blog_comment_ico img {
+  width: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 20px auto 0 auto;
+  display: block;
+}
+
+/* line 218, compass/_blog.scss */
+.rh_blog_comment_date {
+  color: #999;
+  font-size: 16px;
+}
+
+/* line 223, compass/_blog.scss */
+.rh_blog_comment_content {
+  font-size: 16px;
+}
+
+/* line 227, compass/_blog.scss */
+.rh_blog_comment_indent {
+  padding-left: 80px;
+}
+
+/* line 231, compass/_blog.scss */
+.rh_blog_comment_indent-2 {
+  padding-left: 160px;
+}
+
+/* line 235, compass/_blog.scss */
+.rh_blog_form h2 {
+  margin: 30px;
+}
+
+/* line 239, compass/_blog.scss */
+.rh_blog_form input[type=text] {
+  width: 100%;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+/* line 247, compass/_blog.scss */
+.rh_blog_form input[type=text]:active, .rh_blog_form input[type=text]:focus {
+  border: 1px solid #86bf44;
+  outline: 0;
+}
+
+/* line 252, compass/_blog.scss */
+.rh_blog_form textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* line 261, compass/_blog.scss */
+.rh_blog_form textarea:active, .rh_blog_form textarea:focus {
+  border: 1px solid #86bf44;
+  outline: 0;
+}
+
+/* line 266, compass/_blog.scss */
+.rh_blog_form input[type=submit] {
+  border: 0;
+  outline: 0;
+  background: #86bf44;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 278, compass/_blog.scss */
+.rh_blog_form input[type=submit]:hover {
+  background: #6b9a35;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 283, compass/_blog.scss */
+  .rh_blog_comment_indent {
+    padding-left: 50px;
+  }
+
+  /* line 287, compass/_blog.scss */
+  .rh_blog_comment_indent-2 {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 293, compass/_blog.scss */
+  .rh_blog_comment_indent {
+    padding-left: 30px;
+  }
+
+  /* line 297, compass/_blog.scss */
+  .rh_blog_comment_indent-2 {
+    padding-left: 60px;
+  }
+}
+/* End of Blog Post Styles */
+/* Page Styles */
+/* line 2, compass/_page.scss */
+section.rh_page_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 300px;
+  border-top: 5px solid #86bf44;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Makes background darker to increase readability */
+/* line 16, compass/_page.scss */
+section.rh_page_title:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Header title text with outline */
+/* line 29, compass/_page.scss */
+section.rh_page_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 120px;
+  outline: 5px solid #fff;
+  overflow-wrap: break-word;
+}
+
+/* Header subtitle text with outline */
+/* line 38, compass/_page.scss */
+section.rh_page_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Main Page Section */
+/* line 45, compass/_page.scss */
+section.rh_page_section {
+  background: #fff;
+  color: #111;
+  min-height: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 56, compass/_page.scss */
+section.rh_page_section h2 {
+  text-align: center;
+}
+
+/* line 60, compass/_page.scss */
+section.rh_page_section p {
+  padding: 5px;
+}
+
+/* Contact Section */
+/* line 65, compass/_page.scss */
+.rh_page_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+/* line 77, compass/_page.scss */
+.rh_page_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 83, compass/_page.scss */
+.rh_page_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 89, compass/_page.scss */
+.rh_page_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* Mobile version - remove outline from header title text */
+@media (max-width: 767px) {
+  /* line 99, compass/_page.scss */
+  section.rh_page_title h2 {
+    font-size: 100px;
+    outline: none;
+  }
+}
+/* Maintenance Styles */
+/* line 2, compass/_maintenance.scss */
+.rh_maintenance {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  border-top: 5px solid #86bf44;
+  border-bottom: 5px solid #86bf44;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  min-height: 580px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Makes background darker to increase readability */
+/* line 21, compass/_maintenance.scss */
+.rh_maintenance:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* line 33, compass/_maintenance.scss */
+.rh_maintenance p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Logo width */
+/* line 40, compass/_maintenance.scss */
+.rh_maintenance img {
+  max-width: 96%;
+}
+
+/* Big background icon */
+/* line 45, compass/_maintenance.scss */
+.rh_maintenance_ico {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 40px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 470px;
+  z-index: -1;
+}
+
+/* Signup and Login Subpage */
+/* line 2, compass/_signup.scss */
+section.rh_signup {
+  background: #6b9a35;
+  color: #fff;
+  border-top: 5px solid #86bf44;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  position: relative;
+  /* Header Text */
+  /* Input placeholder colors */
+  /* Main Containers */
+}
+/* line 12, compass/_signup.scss */
+section.rh_signup h2 {
+  color: #fff;
+  text-align: center;
+}
+/* line 17, compass/_signup.scss */
+section.rh_signup p {
+  color: #fff;
+}
+/* line 22, compass/_signup.scss */
+section.rh_signup ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+}
+/* line 25, compass/_signup.scss */
+section.rh_signup :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 1;
+}
+/* line 29, compass/_signup.scss */
+section.rh_signup ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+/* line 33, compass/_signup.scss */
+section.rh_signup :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+/* line 38, compass/_signup.scss */
+section.rh_signup .rh_signup_login, section.rh_signup .rh_signup_signup {
+  margin-top: 20px;
+  background: #86bf44;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  /* Transparent outline */
+  /* Text Input */
+  /* Password Input */
+  /* Submit Button */
+  /* Placeholder icons */
+}
+/* line 45, compass/_signup.scss */
+section.rh_signup .rh_signup_login .rh_signup_login_username, section.rh_signup .rh_signup_login .rh_signup_login_password, section.rh_signup .rh_signup_login .rh_signup_signup_username, section.rh_signup .rh_signup_login .rh_signup_signup_password,
+section.rh_signup .rh_signup_login .rh_signup_signup_email, section.rh_signup .rh_signup_login .rh_signup_signup_repeat, section.rh_signup .rh_signup_signup .rh_signup_login_username, section.rh_signup .rh_signup_signup .rh_signup_login_password, section.rh_signup .rh_signup_signup .rh_signup_signup_username, section.rh_signup .rh_signup_signup .rh_signup_signup_password,
+section.rh_signup .rh_signup_signup .rh_signup_signup_email, section.rh_signup .rh_signup_signup .rh_signup_signup_repeat {
+  position: relative;
+}
+/* line 50, compass/_signup.scss */
+section.rh_signup .rh_signup_login input, section.rh_signup .rh_signup_signup input {
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #6b9a35;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 62, compass/_signup.scss */
+section.rh_signup .rh_signup_login input[type=text], section.rh_signup .rh_signup_signup input[type=text] {
+  padding-left: 70px;
+  height: 50px;
+  font-size: 18px;
+}
+/* line 69, compass/_signup.scss */
+section.rh_signup .rh_signup_login input[type=password], section.rh_signup .rh_signup_signup input[type=password] {
+  padding-left: 70px;
+  height: 50px;
+  font-size: 18px;
+}
+/* line 76, compass/_signup.scss */
+section.rh_signup .rh_signup_login input[type=submit], section.rh_signup .rh_signup_signup input[type=submit] {
+  background: #fff;
+  color: #86bf44;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 86, compass/_signup.scss */
+section.rh_signup .rh_signup_login input[type=submit]:hover, section.rh_signup .rh_signup_signup input[type=submit]:hover {
+  background: #f6f6f6;
+  color: #6b9a35;
+}
+/* line 92, compass/_signup.scss */
+section.rh_signup .rh_signup_login .rh_signup_login_username .fa, section.rh_signup .rh_signup_login .rh_signup_login_password .fa, section.rh_signup .rh_signup_login .rh_signup_signup_username .fa, section.rh_signup .rh_signup_login .rh_signup_signup_password .fa,
+section.rh_signup .rh_signup_login .rh_signup_signup_email .fa, section.rh_signup .rh_signup_login .rh_signup_signup_repeat .fa, section.rh_signup .rh_signup_signup .rh_signup_login_username .fa, section.rh_signup .rh_signup_signup .rh_signup_login_password .fa, section.rh_signup .rh_signup_signup .rh_signup_signup_username .fa, section.rh_signup .rh_signup_signup .rh_signup_signup_password .fa,
+section.rh_signup .rh_signup_signup .rh_signup_signup_email .fa, section.rh_signup .rh_signup_signup .rh_signup_signup_repeat .fa {
+  position: absolute;
+  z-index: 1;
+  top: 32px;
+  font-size: 22px;
+  left: 32px;
+}
+/* line 101, compass/_signup.scss */
+section.rh_signup .rh_signup_login .rh_signup_signup_email .fa, section.rh_signup .rh_signup_signup .rh_signup_signup_email .fa {
+  left: 29px;
+}
+/* line 105, compass/_signup.scss */
+section.rh_signup .rh_signup_login p a, section.rh_signup .rh_signup_signup p a {
+  color: #fff;
+  text-decoration: none;
+  transition: .1s all linear;
+}
+/* line 111, compass/_signup.scss */
+section.rh_signup .rh_signup_login p a:hover, section.rh_signup .rh_signup_signup p a:hover {
+  color: #6b9a35;
+}
+
+/* Big background icon */
+/* line 118, compass/_signup.scss */
+.rh_signup_bg {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 470px;
+}
+
+/* ABOUT US STYLES */
+/* line 2, compass/_about.scss */
+section.rh_about_page {
+  min-height: 800px;
+  border-top: 5px solid #86bf44;
+  padding-top: 20px;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+}
+/* line 10, compass/_about.scss */
+section.rh_about_page h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 18, compass/_about.scss */
+.rh_about_page_logo {
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 24, compass/_about.scss */
+.rh_biglogo {
+  display: block;
+  margin: auto;
+}
+
+/* line 29, compass/_about.scss */
+.rh_about_bg {
+  position: absolute;
+  left: 80px;
+  top: 180px;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 570px;
+}
+
+/* line 37, compass/_about.scss */
+.rh_about_team {
+  width: 100%;
+  margin-top: 20px;
+  -moz-box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1), 20px 20px 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1), 20px 20px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1), 20px 20px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 43, compass/_about.scss */
+.rh_about_building {
+  width: 100%;
+  margin-top: 20px;
+  -moz-box-shadow: -10px 10px 0 0 rgba(0, 0, 0, 0.1), -20px 20px 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -10px 10px 0 0 rgba(0, 0, 0, 0.1), -20px 20px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 10px 0 0 rgba(0, 0, 0, 0.1), -20px 20px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 49, compass/_about.scss */
+.rh_about_page_contact .fa {
+  color: #86bf44;
+}
+
+/* Google Maps */
+/* line 54, compass/_about.scss */
+.rh_google_container {
+  position: relative;
+  padding-bottom: 560px;
+  margin-top: 40px;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 62, compass/_about.scss */
+.rh_google_container iframe, .rh_google_container object, .rh_google_container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 560px;
+}
+
+/* END OF ABOUT US STYLES */
+/* ERROR 404 STYLES */
+/* line 2, compass/_error.scss */
+section.rh_error_404 {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid #86bf44;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Makes background darker to increase readability */
+/* line 16, compass/_error.scss */
+section.rh_error_404:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Header title text */
+/* line 29, compass/_error.scss */
+section.rh_error_404 h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+}
+
+/* Header subtitle text */
+/* line 36, compass/_error.scss */
+section.rh_error_404 p {
+  color: #fff;
+  font-size: 26px;
+}
+
+/* Background big icon */
+/* line 42, compass/_error.scss */
+.rh_error_404_bg {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 40px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 470px;
+  z-index: -1;
+}
+
+/* Lower res - header title font size adjustment */
+@media (max-width: 767px) {
+  /* line 55, compass/_error.scss */
+  section.rh_error_404 h2 {
+    font-size: 120px !important;
+  }
+}
+/* WEB HOSTING STYLES */
+/* line 2, compass/_web.scss */
+p.rh_web_params {
+  color: #86bf44;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 8, compass/_web.scss */
+section.rh_web_tables {
+  background: #fff;
+  color: #111;
+  min-height: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 20, compass/_web.scss */
+.rh_each_column {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* line 25, compass/_web.scss */
+.rh_web_column {
+  position: relative;
+  margin-top: 40px;
+}
+
+/* line 30, compass/_web.scss */
+.rh_web_bestseller {
+  position: absolute;
+  width: 80%;
+  background: #ff5722;
+  height: 30px;
+  line-height: 30px;
+  left: 10%;
+  top: -30px;
+  color: #fff;
+  -moz-border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px;
+  border-radius: 30px 30px 0 0;
+}
+
+/* line 42, compass/_web.scss */
+.rh_web_column h3 {
+  width: 100%;
+  color: #fff;
+  background: #111;
+  margin: 0;
+  font-size: 30px;
+  padding: 18px 0;
+}
+
+/* line 51, compass/_web.scss */
+span.rh_web_price {
+  padding: 12px 0;
+  color: #fff;
+  display: block;
+  border-top: 5px solid rgba(255, 255, 255, 0.2);
+  background: #86bf44;
+}
+
+/* line 59, compass/_web.scss */
+span.rh_web_price b {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* line 65, compass/_web.scss */
+span.rh_web_feature {
+  display: block;
+  padding: 10px;
+  color: #222;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 76, compass/_web.scss */
+span.rh_web_feature:nth-child(odd) {
+  background: #eee;
+}
+
+/* line 80, compass/_web.scss */
+span.rh_web_start {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 88, compass/_web.scss */
+span.rh_web_start a {
+  background: #86bf44;
+  font-size: 26px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+/* line 98, compass/_web.scss */
+span.rh_web_start a:hover {
+  background: #86bf44;
+  color: #fff;
+}
+
+/* line 103, compass/_web.scss */
+span.rh_web_start a:hover {
+  background: #6b9a35;
+}
+
+/* line 107, compass/_web.scss */
+.rh_web_notice {
+  margin-top: 15px;
+  margin-left: 1px;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* line 114, compass/_web.scss */
+.rh_web_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+/* line 126, compass/_web.scss */
+.rh_web_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 132, compass/_web.scss */
+.rh_web_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 138, compass/_web.scss */
+.rh_web_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* line 146, compass/_web.scss */
+section.rh_web_features {
+  background: #fff;
+  color: #444;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 157, compass/_web.scss */
+section.rh_web_features .row {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 162, compass/_web.scss */
+section.rh_web_features .row:nth-child(odd) .rh_web_icon {
+  float: right;
+}
+
+/* line 166, compass/_web.scss */
+section.rh_web_features .row:first-child {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  text-align: center;
+  border-bottom: 0;
+}
+
+/* line 173, compass/_web.scss */
+section.rh_web_features .row:last-child {
+  border-bottom: 0;
+}
+
+/* line 177, compass/_web.scss */
+section.rh_web_features .row p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 182, compass/_web.scss */
+section.rh_web_features .row .col-lg-6:first-child {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+/* line 187, compass/_web.scss */
+section.rh_web_features .row .col-lg-6:nth-child(2) {
+  text-align: right;
+}
+
+/* line 191, compass/_web.scss */
+section.rh_web_features h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #86bf44;
+}
+
+/* line 202, compass/_web.scss */
+section.rh_web_features i.fa {
+  text-align: center;
+  display: block;
+  font-size: 120px;
+  color: #86bf44;
+  margin-top: 10px;
+}
+
+/* line 210, compass/_web.scss */
+.rh_web_icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px;
+}
+
+/* line 217, compass/_web.scss */
+.rh_web_money {
+  min-height: 100px;
+  background: #86bf44;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+}
+
+/* line 228, compass/_web.scss */
+.rh_web_money h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 35px 0 15px 0;
+}
+
+/* line 234, compass/_web.scss */
+.rh_web_money p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 40px 0;
+}
+
+/* line 242, compass/_web.scss */
+.rh_web_sat {
+  width: 130px;
+  height: 130px;
+  margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+  /* line 249, compass/_web.scss */
+  .rh_web_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 254, compass/_web.scss */
+  section.rh_web_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 258, compass/_web.scss */
+  section.rh_web_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 262, compass/_web.scss */
+  section.rh_web_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 266, compass/_web.scss */
+  section.rh_web_features .row p {
+    margin-bottom: 10px;
+  }
+
+  /* line 270, compass/_web.scss */
+  .rh_web_contact h2 {
+    font-size: 36px !important;
+  }
+
+  /* line 274, compass/_web.scss */
+  .rh_web_sat {
+    display: none;
+  }
+
+  /* line 278, compass/_web.scss */
+  .rh_web_money {
+    padding: 10px;
+  }
+
+  /* line 282, compass/_web.scss */
+  .rh_web_money h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  /* line 287, compass/_web.scss */
+  .rh_web_money p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  /* line 293, compass/_web.scss */
+  section.rh_web_title h2 {
+    font-size: 80px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 299, compass/_web.scss */
+  .rh_web_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 304, compass/_web.scss */
+  section.rh_web_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 308, compass/_web.scss */
+  section.rh_web_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 312, compass/_web.scss */
+  section.rh_web_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 316, compass/_web.scss */
+  section.rh_web_features .row p {
+    margin-bottom: 10px;
+  }
+}
+/* VPS HOSTING STYLES */
+/* line 2, compass/_vps.scss */
+section.rh_vps_tables {
+  background: #fff;
+  color: #111;
+  min-height: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 14, compass/_vps.scss */
+section.rh_vps_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid #86bf44;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 27, compass/_vps.scss */
+section.rh_vps_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+  outline: 5px solid #fff;
+}
+
+/* line 34, compass/_vps.scss */
+section.rh_vps_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* line 40, compass/_vps.scss */
+p.rh_vps_params {
+  color: #86bf44;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 46, compass/_vps.scss */
+.rh_vps_column {
+  position: relative;
+  margin-top: 40px;
+}
+
+/* line 51, compass/_vps.scss */
+.rh_vps_column h3 {
+  color: #444;
+  border: 1px solid #dddddd;
+  margin: 0;
+  font-size: 30px;
+  -moz-border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px;
+  border-radius: 30px 30px 0 0;
+  padding: 5px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* line 62, compass/_vps.scss */
+span.rh_vps_price {
+  padding: 12px 0;
+  color: #fff;
+  display: block;
+  background: #0686c7;
+}
+
+/* line 69, compass/_vps.scss */
+span.rh_vps_price b {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* line 75, compass/_vps.scss */
+span.rh_vps_start a {
+  background: #0686c7;
+  font-size: 26px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+/* line 85, compass/_vps.scss */
+span.rh_vps_start a:hover {
+  background: #111;
+}
+
+/* line 89, compass/_vps.scss */
+span.rh_vps_feature {
+  display: block;
+  padding: 10px;
+  color: #222;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 101, compass/_vps.scss */
+span.rh_vps_feature:nth-child(odd) {
+  background: #eee;
+}
+
+/* line 105, compass/_vps.scss */
+.rh_vps_notice {
+  margin-top: 15px;
+  margin-left: 1px;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* line 112, compass/_vps.scss */
+.rh_vps_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+/* line 123, compass/_vps.scss */
+.rh_vps_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 129, compass/_vps.scss */
+.rh_vps_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 135, compass/_vps.scss */
+.rh_vps_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* line 143, compass/_vps.scss */
+section.rh_vps_features {
+  background: #fff;
+  color: #444;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 154, compass/_vps.scss */
+section.rh_vps_features .row {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 159, compass/_vps.scss */
+section.rh_vps_features .row:nth-child(odd) .rh_vps_icon {
+  float: right;
+}
+
+/* line 163, compass/_vps.scss */
+section.rh_vps_features .row:first-child {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  text-align: center;
+  border-bottom: 0;
+}
+
+/* line 170, compass/_vps.scss */
+section.rh_vps_features .row:last-child {
+  border-bottom: 0;
+}
+
+/* line 174, compass/_vps.scss */
+section.rh_vps_features .row p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 179, compass/_vps.scss */
+section.rh_vps_features .row .col-lg-6:first-child {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+/* line 184, compass/_vps.scss */
+section.rh_vps_features .row .col-lg-6:nth-child(2) {
+  text-align: right;
+}
+
+/* line 188, compass/_vps.scss */
+section.rh_vps_features h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #86bf44;
+}
+
+/* line 199, compass/_vps.scss */
+section.rh_vps_features i.fa {
+  text-align: center;
+  display: block;
+  font-size: 120px;
+  color: #86bf44;
+  margin-top: 10px;
+}
+
+/* line 207, compass/_vps.scss */
+.rh_vps_icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px;
+}
+
+/* line 214, compass/_vps.scss */
+.rh_vps_money {
+  min-height: 100px;
+  background: #86bf44;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+}
+
+/* line 225, compass/_vps.scss */
+.rh_vps_money h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 35px 0 15px 0;
+}
+
+/* line 231, compass/_vps.scss */
+.rh_vps_money p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 40px 0;
+}
+
+/* line 239, compass/_vps.scss */
+.rh_vps_sat {
+  width: 130px;
+  height: 130px;
+  margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+  /* line 246, compass/_vps.scss */
+  .rh_vps_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 251, compass/_vps.scss */
+  section.rh_vps_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 255, compass/_vps.scss */
+  section.rh_vps_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 259, compass/_vps.scss */
+  section.rh_vps_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 263, compass/_vps.scss */
+  section.rh_vps_features .row p {
+    margin-bottom: 10px;
+  }
+
+  /* line 267, compass/_vps.scss */
+  .rh_vps_contact h2 {
+    font-size: 36px !important;
+  }
+
+  /* line 271, compass/_vps.scss */
+  .rh_vps_sat {
+    display: none;
+  }
+
+  /* line 275, compass/_vps.scss */
+  .rh_vps_money {
+    padding: 10px;
+  }
+
+  /* line 279, compass/_vps.scss */
+  .rh_vps_money h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  /* line 284, compass/_vps.scss */
+  .rh_vps_money p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  /* line 290, compass/_vps.scss */
+  section.rh_vps_title h2 {
+    font-size: 80px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 296, compass/_vps.scss */
+  .rh_vps_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 301, compass/_vps.scss */
+  section.rh_vps_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 305, compass/_vps.scss */
+  section.rh_vps_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 309, compass/_vps.scss */
+  section.rh_vps_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 313, compass/_vps.scss */
+  section.rh_vps_features .row p {
+    margin-bottom: 10px;
+  }
+}
+/* DEDICATED HOSTING STYLES */
+/* line 2, compass/_dedicated.scss */
+section.rh_ded_tables {
+  background: #fff;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 14, compass/_dedicated.scss */
+section.rh_ded_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid #86bf44;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 27, compass/_dedicated.scss */
+section.rh_ded_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+  outline: 5px solid #fff;
+}
+
+/* line 34, compass/_dedicated.scss */
+section.rh_ded_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* line 40, compass/_dedicated.scss */
+p.rh_ded_params {
+  color: #86bf44;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 46, compass/_dedicated.scss */
+.rh_ded_table {
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0 40px 0;
+  border-left: 10px solid #86bf44;
+  border-right: 10px solid #86bf44;
+}
+
+/* line 55, compass/_dedicated.scss */
+.rh_ded_table th {
+  background: #86bf44;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px;
+}
+
+/* line 64, compass/_dedicated.scss */
+.rh_ded_table td {
+  padding: 8px;
+  color: #111;
+  font-weight: 300;
+  position: relative;
+  border-bottom: 2px solid #86bf44;
+}
+
+/* line 72, compass/_dedicated.scss */
+.rh_ded_table tbody tr:nth-child(odd) td {
+  background: #f6f6f6;
+}
+
+/* line 76, compass/_dedicated.scss */
+.rh_ded_table tbody tr td:last-child {
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 82, compass/_dedicated.scss */
+.rh_ded_table tbody tr td:first-child {
+  font-family: 'Roboto', sans-serif;
+  color: #86bf44;
+}
+
+/* line 87, compass/_dedicated.scss */
+a.rh_ded_choose {
+  text-decoration: none;
+  color: #86bf44;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 94, compass/_dedicated.scss */
+a.rh_ded_choose:hover {
+  color: #6b9a35;
+}
+
+/* line 98, compass/_dedicated.scss */
+.rh_ded_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+/* line 109, compass/_dedicated.scss */
+.rh_ded_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 115, compass/_dedicated.scss */
+.rh_ded_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 121, compass/_dedicated.scss */
+.rh_ded_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* line 129, compass/_dedicated.scss */
+section.rh_ded_features {
+  background: #fff;
+  color: #444;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 140, compass/_dedicated.scss */
+section.rh_ded_features .row {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 145, compass/_dedicated.scss */
+section.rh_ded_features .row:nth-child(odd) .rh_ded_icon {
+  float: right;
+}
+
+/* line 149, compass/_dedicated.scss */
+section.rh_ded_features .row:first-child {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  text-align: center;
+  border-bottom: 0;
+}
+
+/* line 156, compass/_dedicated.scss */
+section.rh_ded_features .row:last-child {
+  border-bottom: 0;
+}
+
+/* line 160, compass/_dedicated.scss */
+section.rh_ded_features .row p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 165, compass/_dedicated.scss */
+section.rh_ded_features .row .col-lg-6:first-child {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+/* line 170, compass/_dedicated.scss */
+section.rh_ded_features .row .col-lg-6:nth-child(2) {
+  text-align: right;
+}
+
+/* line 174, compass/_dedicated.scss */
+section.rh_ded_features h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #86bf44;
+}
+
+/* line 185, compass/_dedicated.scss */
+section.rh_ded_features i.fa {
+  text-align: center;
+  display: block;
+  font-size: 120px;
+  color: #86bf44;
+  margin-top: 10px;
+}
+
+/* line 193, compass/_dedicated.scss */
+.rh_ded_icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+
+/* line 200, compass/_dedicated.scss */
+.rh_ded_money {
+  min-height: 100px;
+  background: #86bf44;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+}
+
+/* line 211, compass/_dedicated.scss */
+.rh_ded_money h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 35px 0 15px 0;
+}
+
+/* line 217, compass/_dedicated.scss */
+.rh_ded_money p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 40px 0;
+}
+
+/* line 225, compass/_dedicated.scss */
+.rh_ded_sat {
+  width: 130px;
+  height: 130px;
+  margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+  /* line 232, compass/_dedicated.scss */
+  .rh_ded_table {
+    border-top: 10px solid #86bf44;
+    border-bottom: 10px solid #86bf44;
+  }
+
+  /* line 237, compass/_dedicated.scss */
+  .rh_ded_table thead {
+    display: none;
+  }
+
+  /* line 241, compass/_dedicated.scss */
+  .rh_ded_table td {
+    display: block;
+    border-bottom: 0;
+  }
+
+  /* line 246, compass/_dedicated.scss */
+  .rh_ded_table tr {
+    border-bottom: 2px solid #86bf44;
+  }
+
+  /* line 250, compass/_dedicated.scss */
+  .rh_ded_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 255, compass/_dedicated.scss */
+  section.rh_ded_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 259, compass/_dedicated.scss */
+  section.rh_ded_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 263, compass/_dedicated.scss */
+  section.rh_ded_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 267, compass/_dedicated.scss */
+  section.rh_ded_features .row p {
+    margin-bottom: 10px;
+  }
+
+  /* line 271, compass/_dedicated.scss */
+  .rh_ded_contact h2 {
+    font-size: 36px !important;
+  }
+
+  /* line 275, compass/_dedicated.scss */
+  .rh_ded_sat {
+    display: none;
+  }
+
+  /* line 279, compass/_dedicated.scss */
+  .rh_ded_money {
+    padding: 10px;
+  }
+
+  /* line 283, compass/_dedicated.scss */
+  .rh_ded_money h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  /* line 288, compass/_dedicated.scss */
+  .rh_ded_money p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  /* line 294, compass/_dedicated.scss */
+  section.rh_ded_title h2 {
+    font-size: 80px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 300, compass/_dedicated.scss */
+  .rh_ded_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 305, compass/_dedicated.scss */
+  section.rh_ded_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  /* line 309, compass/_dedicated.scss */
+  section.rh_ded_features .row {
+    border-bottom: 0;
+  }
+
+  /* line 313, compass/_dedicated.scss */
+  section.rh_ded_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* line 317, compass/_dedicated.scss */
+  section.rh_ded_features .row p {
+    margin-bottom: 10px;
+  }
+}
+/* line 1, compass/_domains.scss */
+section.rh_dom_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid #86bf44;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 14, compass/_domains.scss */
+section.rh_dom_title:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* line 26, compass/_domains.scss */
+.rh_dom_title h2 {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+/* line 34, compass/_domains.scss */
+.rh_dom_title h2 b {
+  color: #86bf44;
+}
+
+/* line 38, compass/_domains.scss */
+.rh_dom_title .container {
+  position: relative;
+}
+
+/* line 42, compass/_domains.scss */
+.rh_dom_title .container .domain_check {
+  width: 100%;
+  background: #86bf44;
+  color: #fff;
+  margin: 50px auto 0 auto;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  padding: 0 13px 0 20px;
+  -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  min-height: 220px;
+}
+
+/* line 53, compass/_domains.scss */
+.rh_dom_title .domain_desc {
+  padding: 0 0 0 10px;
+}
+
+/* line 57, compass/_domains.scss */
+.rh_dom_title .domain_block {
+  margin-top: 13px;
+  padding: 0;
+}
+
+/* line 62, compass/_domains.scss */
+.rh_dom_title .container .domain_desc h2 {
+  color: #fff;
+  line-height: 80px;
+  margin: auto;
+  padding: 0;
+  font-weight: 400;
+  font-size: 32px;
+}
+/* line 70, compass/_domains.scss */
+.rh_dom_title .container .domain_desc h2 b {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* line 77, compass/_domains.scss */
+.rh_dom_title .container input.domain_text {
+  background: #fff;
+  border: none;
+  -moz-border-radius: 30px 0 0 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  color: #111;
+  padding-left: 50px;
+  float: right;
+  font-size: 16px;
+  height: 56px;
+  width: 400px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* line 92, compass/_domains.scss */
+.rh_dom_title .container i.domain_icon {
+  position: absolute;
+  color: #86bf44;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* line 100, compass/_domains.scss */
+.rh_dom_title .container select.domain_list {
+  background: #fff;
+  color: #272727;
+  outline: none;
+  float: right;
+  font-size: 16px;
+  height: 56px;
+  margin: 0;
+  padding: 10px;
+  width: 102px;
+  border: 1px solid #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 114, compass/_domains.scss */
+.rh_dom_title .container input.domain_submit {
+  background: #fff;
+  color: #272727;
+  outline: none;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  height: 56px;
+  overflow: hidden;
+  padding: 5px 25px 5px 15px;
+  border: 0;
+  margin-left: 0;
+  text-align: center;
+  -moz-border-radius: 0 30px 30px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 30px 30px 0;
+  width: 120px;
+  text-transform: uppercase;
+}
+
+/* line 133, compass/_domains.scss */
+.rh_dom_title .container input.domain_submit:hover, .rh_dom_title .container select.domain_list:hover {
+  background: #eee;
+}
+
+/* line 137, compass/_domains.scss */
+.rh_dom_each {
+  margin-top: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0;
+}
+
+/* line 143, compass/_domains.scss */
+.rh_dom_each:last-child {
+  border-right: 0;
+}
+
+/* line 147, compass/_domains.scss */
+.rh_dom_each h3 {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0;
+  padding: 10px;
+}
+
+/* line 154, compass/_domains.scss */
+.rh_dom_each b {
+  padding: 10px;
+  margin: 0;
+  display: block;
+  font-size: 24px;
+}
+
+/* line 161, compass/_domains.scss */
+section.rh_dom_results {
+  background: #fff;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* line 173, compass/_domains.scss */
+.rh_dom_results h2 {
+  margin: 20px 0 35px 0;
+}
+
+/* line 177, compass/_domains.scss */
+.rh_dom_result {
+  padding: 20px;
+  background: #86bf44;
+  color: #fff;
+  text-align: left;
+}
+
+/* line 184, compass/_domains.scss */
+.rh_dom_res_ico i {
+  font-size: 38px;
+}
+
+/* line 188, compass/_domains.scss */
+.rh_dom_res_dom {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 194, compass/_domains.scss */
+.rh_dom_res_dom h3 {
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+}
+
+/* line 200, compass/_domains.scss */
+.rh_dom_res_price {
+  font-size: 32px;
+}
+
+/* line 204, compass/_domains.scss */
+.rh_dom_res_buy a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  outline: 3px solid #fff;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 215, compass/_domains.scss */
+.rh_dom_res_buy a:hover {
+  color: #86bf44;
+  background: #fff;
+}
+
+/* line 220, compass/_domains.scss */
+.rh_dom_other {
+  padding: 20px 20px 10px 20px;
+  color: #666;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 227, compass/_domains.scss */
+.rh_dom_other_name h3 {
+  font-size: 26px;
+  color: #86bf44;
+  margin: 0;
+}
+
+/* line 233, compass/_domains.scss */
+.rh_dom_other_price {
+  font-size: 28px;
+  color: #ddd;
+}
+
+/* line 238, compass/_domains.scss */
+.rh_dom_other_buy a {
+  color: #86bf44;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 248, compass/_domains.scss */
+.rh_dom_other_buy a:hover {
+  color: #6b9a35;
+}
+
+/* line 252, compass/_domains.scss */
+.rh_dom_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+/* line 264, compass/_domains.scss */
+.rh_dom_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 270, compass/_domains.scss */
+.rh_dom_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 276, compass/_domains.scss */
+.rh_dom_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* line 284, compass/_domains.scss */
+.rh_dom_full {
+  padding: 15px 20px;
+  outline: 2px solid #86bf44;
+  margin: 20px;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #86bf44;
+}
+
+/* line 294, compass/_domains.scss */
+.rh_dom_full:hover {
+  background: #86bf44;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  /* line 301, compass/_domains.scss */
+  .rh_dom_contact h2 {
+    font-size: 36px !important;
+  }
+
+  /* line 305, compass/_domains.scss */
+  .rh_dom_title .container input.domain_submit {
+    font-size: 14px;
+    height: 50px;
+    width: 18%;
+    padding: 5px 15px 5px 5px;
+  }
+
+  /* line 312, compass/_domains.scss */
+  .rh_dom_title .container select.domain_list {
+    font-size: 14px;
+    height: 50px;
+    width: 12%;
+    padding: 10px 5px;
+  }
+
+  /* line 319, compass/_domains.scss */
+  .rh_dom_title .container input.domain_text {
+    font-size: 14px;
+    height: 50px;
+    width: 70%;
+  }
+
+  /* line 325, compass/_domains.scss */
+  .rh_dom_title .container .domain_desc h2 {
+    font-size: 22px;
+    display: none;
+  }
+
+  /* line 330, compass/_domains.scss */
+  .rh_dom_each h3 {
+    font-size: 18px;
+  }
+
+  /* line 334, compass/_domains.scss */
+  .rh_dom_each b {
+    font-size: 18px;
+  }
+
+  /* line 338, compass/_domains.scss */
+  .rh_dom_title .container .domain_check {
+    min-height: 180px;
+  }
+
+  /* line 342, compass/_domains.scss */
+  .rh_dom_res_ico {
+    display: none;
+  }
+
+  /* line 346, compass/_domains.scss */
+  .rh_dom_res_dom h3 {
+    font-size: 28px;
+  }
+
+  /* line 350, compass/_domains.scss */
+  .rh_dom_res_price {
+    font-size: 28px;
+  }
+
+  /* line 354, compass/_domains.scss */
+  .rh_dom_other_price {
+    font-size: 26px;
+  }
+
+  /* line 358, compass/_domains.scss */
+  .rh_dom_other_name h3 {
+    font-size: 24px;
+  }
+
+  /* line 362, compass/_domains.scss */
+  section.rh_dom_title h2 {
+    font-size: 62px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 368, compass/_domains.scss */
+  .rh_dom_title .container input.domain_submit {
+    font-size: 14px;
+    height: 50px;
+    width: 100px;
+    padding: 5px 15px 5px 5px;
+  }
+
+  /* line 375, compass/_domains.scss */
+  .rh_dom_title .container select.domain_list {
+    font-size: 14px;
+    height: 50px;
+    width: 72px;
+    padding: 10px 5px;
+  }
+
+  /* line 382, compass/_domains.scss */
+  .rh_dom_title .container input.domain_text {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  /* line 387, compass/_domains.scss */
+  .rh_dom_title .container input.domain_text {
+    width: 220px;
+  }
+
+  /* line 391, compass/_domains.scss */
+  .rh_dom_title .container .domain_desc h2 {
+    font-size: 22px;
+  }
+
+  /* line 395, compass/_domains.scss */
+  .rh_dom_each h3 {
+    font-size: 20px;
+  }
+
+  /* line 399, compass/_domains.scss */
+  .rh_dom_each b {
+    font-size: 20px;
+  }
+
+  /* line 403, compass/_domains.scss */
+  .rh_dom_res_ico {
+    display: none;
+  }
+
+  /* line 407, compass/_domains.scss */
+  .rh_dom_res_dom h3 {
+    font-size: 28px;
+  }
+
+  /* line 411, compass/_domains.scss */
+  .rh_dom_res_price {
+    font-size: 28px;
+  }
+
+  /* line 415, compass/_domains.scss */
+  .rh_dom_other_price {
+    font-size: 26px;
+  }
+
+  /* line 419, compass/_domains.scss */
+  .rh_dom_other_name h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 425, compass/_domains.scss */
+  .rh_dom_title .container input.domain_text {
+    width: 300px;
+  }
+
+  /* line 429, compass/_domains.scss */
+  .rh_dom_title .container .domain_desc h2 {
+    font-size: 28px;
+  }
+}
+/* SSL STYLES */
+/* line 2, compass/_ssl.scss */
+section.rh_ssl_offer {
+  background: #fff;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Contact Section */
+/* line 15, compass/_ssl.scss */
+.rh_ssl_contact {
+  min-height: 100px;
+  background: #fc6220;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+/* line 27, compass/_ssl.scss */
+.rh_ssl_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+/* line 33, compass/_ssl.scss */
+.rh_ssl_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+/* line 39, compass/_ssl.scss */
+.rh_ssl_contact p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* line 47, compass/_ssl.scss */
+.rh_ssl_desc {
+  text-align: left;
+  margin: 20px 0 50px 0;
+}
+
+/* line 52, compass/_ssl.scss */
+.rh_ssl_ico {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  float: left;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 62, compass/_ssl.scss */
+.rh_ssl_column {
+  position: relative;
+  margin-top: 40px;
+  background: #222;
+}
+
+/* line 68, compass/_ssl.scss */
+.rh_ssl_logo {
+  display: inline-block;
+  margin: 15px;
+}
+
+/* line 73, compass/_ssl.scss */
+span.rh_ssl_type {
+  padding: 12px 0;
+  color: #fff;
+  display: block;
+  border-top: 5px solid rgba(255, 255, 255, 0.2);
+  background: #86bf44;
+}
+
+/* line 81, compass/_ssl.scss */
+span.rh_ssl_feature:nth-child(odd) {
+  background: #eee;
+}
+
+/* line 85, compass/_ssl.scss */
+span.rh_ssl_feature {
+  display: block;
+  padding: 10px;
+  color: #222;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 96, compass/_ssl.scss */
+span.rh_ssl_start {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 104, compass/_ssl.scss */
+span.rh_ssl_start a {
+  background: #86bf44;
+  font-size: 26px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+/* line 115, compass/_ssl.scss */
+span.rh_ssl_start a:hover {
+  background: #6b9a35;
+}
+
+@media (max-width: 767px) {
+  /* line 120, compass/_ssl.scss */
+  .rh_ssl_contact h2 {
+    font-size: 36px !important;
+  }
+}
+/* line 15, compass/rapidhost.scss */
+body {
+  min-width: 500px;
+  overflow-x: hidden;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #111;
+  background: #eeeeee url(../img/bg.png) repeat scroll top left;
+}
+
+/* line 24, compass/rapidhost.scss */
+sup {
+  top: -.3em;
+}
+
+/* Typography */
+/* line 29, compass/rapidhost.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #86bf44;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* line 35, compass/rapidhost.scss */
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* line 40, compass/rapidhost.scss */
+a {
+  text-decoration: none;
+  color: #86bf44;
+}
+
+/* line 45, compass/rapidhost.scss */
+a:hover {
+  text-decoration: none;
+  color: #6b9a35;
+}
+
+/* line 50, compass/rapidhost.scss */
+a:focus {
+  outline: none;
+}
+
+/* Scrollbar adjustments */
+/* line 55, compass/rapidhost.scss */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 59, compass/rapidhost.scss */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* line 63, compass/rapidhost.scss */
+::-webkit-scrollbar-thumb {
+  background-color: #86bf44;
+}
+
+/* Logo Image */
+/* line 68, compass/rapidhost.scss */
+.rh_logo_img {
+  width: 256px;
+  margin-right: 10px;
+}
+
+/* Logo Image In About Section (bottom) */
+/* line 74, compass/rapidhost.scss */
+section.rh_about .rh_logo_img {
+  margin: 20px auto 10px auto;
+  display: block;
+}
+
+/* Top Menu */
+/* line 80, compass/rapidhost.scss */
+aside.rh_top_menu {
+  background: #070707;
+  color: #ccc;
+  padding: 4px;
+  min-height: 34px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Social Accounts */
+/* line 92, compass/rapidhost.scss */
+.rh_top_left {
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+/* line 97, compass/rapidhost.scss */
+.rh_top_left .fa:hover {
+  color: #fff;
+}
+
+/* Top Right Menu */
+/* line 104, compass/rapidhost.scss */
+.rh_top_right {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+/* line 109, compass/rapidhost.scss */
+.rh_top_right a {
+  color: #ccc;
+  text-decoration: none;
+}
+/* line 114, compass/rapidhost.scss */
+.rh_top_right a:hover {
+  color: #fff;
+}
+
+/* line 119, compass/rapidhost.scss */
+aside.rh_top_menu span {
+  padding: 0 10px;
+  border-right: 1px solid #333;
+}
+
+/* line 124, compass/rapidhost.scss */
+aside.rh_top_menu span:hover {
+  color: #eee;
+}
+
+/* line 128, compass/rapidhost.scss */
+aside.rh_top_menu span.no-border {
+  border: 0;
+}
+
+/* line 132, compass/rapidhost.scss */
+aside.rh_top_menu span.rh_phone {
+  color: #86bf44;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* line 138, compass/rapidhost.scss */
+aside.rh_top_menu span .fa {
+  color: #86bf44;
+}
+
+/* line 142, compass/rapidhost.scss */
+header {
+  min-height: 110px;
+  border-top: 4px solid #86bf44;
+  padding: 20px 20px 15px 20px;
+  text-align: center;
+}
+
+/* line 149, compass/rapidhost.scss */
+::selection {
+  color: #fff;
+  background: #86bf44;
+}
+
+/* Main Menu */
+/* line 155, compass/rapidhost.scss */
+nav {
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+}
+
+/* line 161, compass/rapidhost.scss */
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 168, compass/rapidhost.scss */
+nav ul li {
+  display: inline-block;
+  color: #86bf44;
+  font-size: 24px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  -webkit-box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  box-shadow: 1px 1px 0 1px rgba(17, 17, 17, 0.05);
+  margin-bottom: 5px;
+}
+/* line 179, compass/rapidhost.scss */
+nav ul li:hover {
+  background: #f6f6f6;
+}
+/* line 183, compass/rapidhost.scss */
+nav ul li a, nav ul li a:focus {
+  text-decoration: none;
+  color: #86bf44;
+  border: none;
+  outline: none;
+}
+/* line 190, compass/rapidhost.scss */
+nav ul li a:hover {
+  text-decoration: none;
+  color: #6b9a35;
+}
+
+/* line 196, compass/rapidhost.scss */
+nav ul li.rh_dropdown_menu {
+  position: relative;
+}
+
+/* line 200, compass/rapidhost.scss */
+.rh_dropdown {
+  display: none;
+  position: absolute;
+  top: 81px;
+  left: -156px;
+  padding: 10px;
+  width: 360px;
+  background: #86bf44;
+  color: #fff;
+  z-index: 100;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 213, compass/rapidhost.scss */
+.rh_dropdown ul {
+  width: 100%;
+}
+
+/* line 217, compass/rapidhost.scss */
+.rh_dropdown ul li {
+  width: 100%;
+  background: transparent;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 18px;
+  text-align: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 226, compass/rapidhost.scss */
+.rh_dropdown ul li:hover {
+  background: #fff;
+}
+
+/* line 230, compass/rapidhost.scss */
+.rh_dropdown ul li:hover a {
+  color: #86bf44;
+}
+
+/* line 234, compass/rapidhost.scss */
+.rh_dropdown ul li a {
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 241, compass/rapidhost.scss */
+.rh_dropdown ul li a .fa-caret-right {
+  float: right;
+  line-height: 25px;
+}
+
+/* Banner Styles */
+/* line 247, compass/rapidhost.scss */
+section.rh_banner {
+  position: relative;
+  background-image: url("../img/header_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  color: #fff;
+  text-align: center;
+  padding: 40px 60px 60px 60px;
+  border-top: 5px solid #86bf44;
+  overflow: hidden;
+}
+
+/* line 260, compass/rapidhost.scss */
+.rh_banner_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 267, compass/rapidhost.scss */
+.rh_banner .col-lg-1, .banner .col-lg-2, .rh_banner .col-lg-3, .rh_banner .col-lg-4, .rh_banner .col-lg-5, .rh_banner .col-lg-6,
+.rh_rh_banner .col-lg-7, .rh_banner .col-lg-8, .rh_banner .col-lg-9, .rh_banner .col-lg-10, .rh_banner .col-lg-11, .rh_banner .col-lg-12,
+.rh_banner .col-md-1, .rh_banner .col-md-2, .rh_banner .col-md-3, .rh_banner .col-md-4, .rh_banner .col-md-5, .rh_banner .col-md-6,
+.rh_banner .col-md-7, .rh_banner .col-md-8, .rh_banner .col-md-9, .rh_banner .col-md-10, .rh_banner .col-md-11, .rh_banner .col-md-12,
+.rh_banner .col-sm-1, .rh_banner .col-sm-2, .rh_banner .col-sm-3, .rh_banner .col-sm-4, .rh_banner .col-sm-5, .rh_banner .col-sm-6,
+.rh_banner .col-sm-7, .rh_banner .col-sm-8, .rh_banner .col-sm-9, .rh_banner .col-sm-10, .rh_banner .col-sm-11, .rh_banner .col-sm-12,
+.rh_banner .col-xs-1, .rh_banner .col-xs-2, .rh_banner .col-xs-3, .rh_banner .col-xs-4, .rh_banner .col-xs-5, .rh_banner .col-xs-6,
+.rh_banner .col-xs-7, .rh_banner .col-xs-8, .rh_banner .col-xs-9, .rh_banner .col-xs-10, .rh_banner .col-xs-11, .rh_banner .col-xs-12 {
+  position: static !important;
+  /* necessary to avoid slider problems with bootstrap */
+}
+
+/* Makes banner background darker */
+/* line 279, compass/rapidhost.scss */
+section.rh_banner:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+}
+
+/* line 290, compass/rapidhost.scss */
+section.rh_video_banner:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 1;
+}
+
+/* Background header text */
+/* line 302, compass/rapidhost.scss */
+section.rh_banner h1, section.rh_banner h2, section.rh_banner h3, section.rh_banner h4, section.rh_banner h5, section.rh_banner h6 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* line 308, compass/rapidhost.scss */
+.rh_slide_title {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* Background subtitle text */
+/* line 315, compass/rapidhost.scss */
+.rh_slide_subtitle {
+  font-family: 'Muli', sans-serif !important;
+  font-size: 26px;
+  text-shadow: none !important;
+}
+
+/* line 321, compass/rapidhost.scss */
+.rh_slide_bullets {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 327, compass/rapidhost.scss */
+.rh_slide_bullet {
+  margin-bottom: 2px;
+}
+
+/* line 331, compass/rapidhost.scss */
+.rh_slide_right {
+  width: 60% !important;
+  float: right;
+  text-align: left;
+}
+
+/* line 337, compass/rapidhost.scss */
+.rh_slide_left {
+  width: 40% !important;
+  float: left;
+}
+
+/* line 342, compass/rapidhost.scss */
+.rh_banner .rh_slide_image {
+  margin: 60px auto 0 auto;
+  max-width: 589px;
+  width: 400px;
+}
+
+/* line 348, compass/rapidhost.scss */
+.rh_slide_price {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 353, compass/rapidhost.scss */
+.rh_slide_price .rh_banner_bold {
+  font-size: 24px;
+}
+
+/* Slide button */
+/* line 358, compass/rapidhost.scss */
+.rh_slide_button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* line 366, compass/rapidhost.scss */
+.rh_slide_button:hover {
+  color: #fff;
+  text-decoration: none;
+  border-color: #86bf44;
+  background: #86bf44;
+}
+
+/* line 373, compass/rapidhost.scss */
+.rh_slide_badge {
+  font-size: 60px;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 2px;
+  background: #fff;
+  border: 3px solid #86bf44;
+  -moz-box-shadow: 0 0 0 5px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 0 5px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 5px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* line 386, compass/rapidhost.scss */
+.top-buffer {
+  margin-top: 30px;
+}
+
+/* line 390, compass/rapidhost.scss */
+.rh_slide_domain {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 3px solid;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 400, compass/rapidhost.scss */
+.rh_banner_slide .col-lg-2:nth-child(even) .rh_slide_domain {
+  border-color: #fff;
+}
+
+/* line 404, compass/rapidhost.scss */
+.rh_banner_slide .col-lg-2:nth-child(odd) .rh_slide_domain {
+  border-color: #86bf44;
+}
+
+/* line 408, compass/rapidhost.scss */
+.rh_slide_domain .rh_slide_domain_name {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+/* line 414, compass/rapidhost.scss */
+.rh_slide_domain .rh_price {
+  font-size: 22px;
+  color: #86bf44;
+  display: inline-block;
+  width: 100%;
+  /* to force new line */
+}
+
+/* line 421, compass/rapidhost.scss */
+.owl-carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 427, compass/rapidhost.scss */
+.rh_banner_slide {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Slider navigation arrows */
+/* line 434, compass/rapidhost.scss */
+.owl-prev {
+  position: absolute;
+  z-index: 3;
+  font-size: 40px;
+  top: 40%;
+  left: -30px;
+}
+
+/* line 442, compass/rapidhost.scss */
+.owl-next {
+  position: absolute;
+  z-index: 3;
+  font-size: 40px;
+  top: 40%;
+  right: -30px;
+}
+
+/* line 450, compass/rapidhost.scss */
+.rh_slide_bullet .fa-check-circle-o {
+  color: #3cbc10;
+}
+
+/* line 454, compass/rapidhost.scss */
+.rh_banner img {
+  width: auto !important;
+  /* to overwrite owl carousel */
+}
+
+/* line 458, compass/rapidhost.scss */
+.rh_slide_bullet img {
+  display: inline !important;
+  /* to overwrite owl carousel */
+}
+
+/* line 462, compass/rapidhost.scss */
+.rh_banner_bold {
+  color: #86bf44;
+}
+
+/* Domain search section */
+/* line 467, compass/rapidhost.scss */
+section.rh_sub_banner {
+  min-height: 50px;
+  padding: 10px;
+  background: #fff;
+}
+
+/* line 473, compass/rapidhost.scss */
+section.rh_sub_banner .container {
+  position: relative;
+}
+
+/* line 477, compass/rapidhost.scss */
+section.rh_sub_banner .container .rh_domain_check {
+  width: 100%;
+  background: #86bf44;
+  color: #fff;
+  margin: -50px auto 0 auto;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding: 0 13px 0 20px;
+  -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05);
+  min-height: 80px;
+}
+
+/* line 488, compass/rapidhost.scss */
+.rh_domain_desc {
+  padding: 0 0 0 10px;
+}
+
+/* line 492, compass/rapidhost.scss */
+.rh_domain_block {
+  margin-top: 13px;
+  padding: 0;
+}
+
+/* line 497, compass/rapidhost.scss */
+section.rh_sub_banner .container .rh_domain_desc h2 {
+  color: #fff;
+  line-height: 80px;
+  margin: auto;
+  padding: 0;
+  font-weight: 400;
+  font-size: 32px;
+}
+/* line 505, compass/rapidhost.scss */
+section.rh_sub_banner .container .rh_domain_desc h2 b {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
+}
+
+/* line 511, compass/rapidhost.scss */
+section.rh_sub_banner .container input.rh_domain_text {
+  background: #fff;
+  border: none;
+  -moz-border-radius: 30px 0 0 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  color: #111;
+  padding-left: 50px;
+  float: right;
+  font-size: 16px;
+  height: 56px;
+  width: 400px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* line 526, compass/rapidhost.scss */
+section.rh_sub_banner .container i.rh_domain_icon {
+  position: absolute;
+  color: #86bf44;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/* line 534, compass/rapidhost.scss */
+section.rh_sub_banner .container select.rh_domain_list {
+  background: #fff;
+  color: #272727;
+  outline: none;
+  float: right;
+  font-size: 16px;
+  height: 56px;
+  margin: 0;
+  padding: 10px;
+  width: 102px;
+  border: 1px solid #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 548, compass/rapidhost.scss */
+section.rh_sub_banner .container input.rh_domain_submit {
+  background: #fff;
+  color: #272727;
+  outline: none;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  height: 56px;
+  overflow: hidden;
+  padding: 5px 25px 5px 15px;
+  border: 0;
+  margin-left: 0;
+  text-align: center;
+  -moz-border-radius: 0 30px 30px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 30px 30px 0;
+  width: 120px;
+  text-transform: uppercase;
+}
+
+/* line 567, compass/rapidhost.scss */
+section.rh_sub_banner .container input.rh_domain_submit:hover, section.rh_sub_banner .container select.rh_domain_list:hover {
+  background: #eee;
+}
+
+/* Stats Section (just under domain search section) */
+/* line 572, compass/rapidhost.scss */
+.rh_stats {
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 320px;
+  position: relative;
+}
+
+/* Each stat */
+/* line 581, compass/rapidhost.scss */
+.rh_stat {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  min-height: 280px;
+  position: relative;
+  border-right: 1px solid rgba(221, 221, 221, 0.1);
+  z-index: 0;
+}
+/* line 589, compass/rapidhost.scss */
+.rh_stat h2 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+/* line 596, compass/rapidhost.scss */
+.rh_stat h3 {
+  position: relative;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 605, compass/rapidhost.scss */
+.rh_stat > b {
+  position: relative;
+  text-align: center;
+  font-size: 52px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+/* line 613, compass/rapidhost.scss */
+.rh_stat p {
+  position: relative;
+  font-size: 16px;
+  color: #333;
+  margin: 25px 25px 0 25px;
+  text-align: justify;
+  padding-left: 10px;
+  border-left: 5px solid #ddd;
+}
+/* line 623, compass/rapidhost.scss */
+.rh_stat p a {
+  font-weight: 500;
+  color: #86bf44;
+  text-decoration: none;
+  border-bottom: 2px solid #86bf44;
+  transition: .1s all linear;
+}
+/* line 631, compass/rapidhost.scss */
+.rh_stat p a:hover {
+  color: #6b9a35;
+  border-bottom: 2px solid #6b9a35;
+}
+/* line 636, compass/rapidhost.scss */
+.rh_stat img {
+  width: 90px;
+  display: block;
+  padding-top: 5px;
+  margin: auto;
+  z-index: 2;
+}
+
+/* line 645, compass/rapidhost.scss */
+.rh_stats .rh_stat:last-child {
+  border-right: 0;
+}
+
+/* line 649, compass/rapidhost.scss */
+.small-padding {
+  padding: 5px !important;
+}
+
+/* Big background icon under stats */
+/* line 654, compass/rapidhost.scss */
+.rh_stat_bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.1);
+  top: 10px;
+  font-size: 240px;
+  z-index: -1;
+}
+
+/* Contact Block */
+/* line 667, compass/rapidhost.scss */
+.rh_contact {
+  min-height: 120px;
+  background: #86bf44;
+  color: #fff;
+  font-size: 32px;
+  line-height: 120px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 677, compass/rapidhost.scss */
+.rh_contact_cell:nth-child(even) {
+  -moz-box-shadow: 0 0 0 10px #86bf44;
+  -webkit-box-shadow: 0 0 0 10px #86bf44;
+  box-shadow: 0 0 0 10px #86bf44;
+  z-index: 2;
+}
+
+/* line 682, compass/rapidhost.scss */
+.rh_contact_cell a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Offer section */
+/* line 688, compass/rapidhost.scss */
+.rh_offer {
+  padding-bottom: 20px;
+  position: relative;
+  background: #000 url(../img/bg14.jpg);
+  background-size: cover;
+  padding-top: 30px;
+  text-align: center;
+  z-index: 0;
+}
+/* line 697, compass/rapidhost.scss */
+.rh_offer h1, .rh_offer h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+/* line 703, compass/rapidhost.scss */
+.rh_offer h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  padding: 10px 20px;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 710, compass/rapidhost.scss */
+.rh_offer h2 {
+  font-size: 24px;
+}
+/* line 714, compass/rapidhost.scss */
+.rh_offer .rh_offer_subtitle {
+  margin: 0;
+}
+
+/* line 719, compass/rapidhost.scss */
+.rh_offer .rh_offer_second {
+  min-width: 500px;
+}
+
+/* Makes offer section background darker */
+/* line 724, compass/rapidhost.scss */
+.rh_offer:before {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Social net image covers all offer section */
+/* line 737, compass/rapidhost.scss */
+.rh_offer:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../img/net2.png);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* Each offer option */
+/* line 750, compass/rapidhost.scss */
+.rh_offer_option {
+  margin-top: 20px;
+  min-height: 100px;
+  background: #86bf44;
+  color: #fff;
+  padding: 0;
+  max-width: 1100px;
+}
+/* line 758, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) {
+  text-align: left;
+}
+/* line 762, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) {
+  text-align: right;
+  margin: 20px auto auto 36px;
+}
+/* line 767, compass/rapidhost.scss */
+.rh_offer_option h2 {
+  font-size: 38px;
+  padding: 0;
+  margin: 0;
+  color: #86bf44;
+  line-height: 100px;
+  height: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* line 779, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) span {
+  float: left;
+  line-height: 16px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-right: 20px;
+  margin-left: 14px;
+}
+/* line 788, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) span:first-of-type {
+  margin-top: 26px;
+  margin-left: 0;
+}
+/* line 793, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) h2 {
+  float: left;
+  padding-left: 10px;
+  border-bottom: 100px solid #fff;
+  border-right: 100px solid transparent;
+}
+/* line 800, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) a.rh_option_btn {
+  right: 0;
+  position: absolute;
+  -moz-box-shadow: -10px 0 0 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: -10px 0 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: -10px 0 0 0 rgba(255, 255, 255, 0.2);
+}
+/* line 806, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd):hover a.rh_option_btn {
+  right: -10px;
+}
+/* line 810, compass/rapidhost.scss */
+.rh_offer_option:nth-child(odd) a.rh_option_btn:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid #fff;
+  right: -50px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 824, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) span {
+  float: right;
+  line-height: 16px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-right: 14px;
+}
+/* line 833, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) span:first-of-type {
+  margin-top: 26px;
+  margin-right: 0;
+}
+/* line 838, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) h2 {
+  float: right;
+  padding-right: 10px;
+  border-bottom: 100px solid #fff;
+  border-left: 100px solid transparent;
+}
+/* line 845, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) a.rh_option_btn {
+  left: 0;
+  position: absolute;
+  -moz-box-shadow: 10px 0 0 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 10px 0 0 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 10px 0 0 0 rgba(255, 255, 255, 0.2);
+}
+/* line 851, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even):hover a.rh_option_btn {
+  left: -10px;
+}
+/* line 855, compass/rapidhost.scss */
+.rh_offer_option:nth-child(even) a.rh_option_btn:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid #fff;
+  left: -50px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 868, compass/rapidhost.scss */
+a.rh_option_btn {
+  background: #fff;
+  height: 100px;
+  margin: 0;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  color: #86bf44;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: .1s all linear;
+}
+/* line 880, compass/rapidhost.scss */
+a.rh_option_btn span.rh_option_price {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 28px !important;
+}
+/* line 890, compass/rapidhost.scss */
+a.rh_option_btn span.rh_option_check {
+  line-height: 24px;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 2px;
+}
+
+/* Clients Logos Carousel */
+/* line 902, compass/rapidhost.scss */
+.rh_clients {
+  min-height: 100px;
+  background: #86bf44;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* line 910, compass/rapidhost.scss */
+.rh_client_cell {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 915, compass/rapidhost.scss */
+.rh_client_cell img {
+  width: 90% !important;
+  /* overwrite carousel style */
+  display: inline !important;
+  /* overwrite carousel style */
+}
+
+/* Testimonials section */
+/* line 921, compass/rapidhost.scss */
+.rh_testimonials {
+  padding-top: 20px;
+  min-height: 640px;
+  position: relative;
+  background: #6b9a35;
+}
+
+/* line 928, compass/rapidhost.scss */
+.rh_testimonials_testimonials {
+  min-height: 640px;
+}
+/* line 930, compass/rapidhost.scss */
+.rh_testimonials_testimonials h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  background: #86bf44;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+/* line 943, compass/rapidhost.scss */
+.rh_testimonials_faq h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  background: #86bf44;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+/* line 955, compass/rapidhost.scss */
+.rh_testimonials_faq_content {
+  background: #fff;
+}
+
+/* line 959, compass/rapidhost.scss */
+.rh_testimonial_quote {
+  min-height: 147px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 0;
+  border-right: 20px solid #86bf44;
+}
+/* line 966, compass/rapidhost.scss */
+.rh_testimonial_quote b {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* line 975, compass/rapidhost.scss */
+.rh_testimonial_quote i.rh_testimonial_pos {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #86bf44;
+  font-size: 15px;
+  font-style: normal;
+}
+
+/* line 986, compass/rapidhost.scss */
+.rh_testimonial_circ {
+  width: 0;
+  height: 0;
+  border-bottom: 147px solid #86bf44;
+  border-right: 60px solid transparent;
+  margin-left: 0;
+  padding: 0;
+  padding-left: 50px;
+  line-height: 147px;
+}
+
+/* Testimonial avatar image */
+/* line 998, compass/rapidhost.scss */
+.rh_testimonial_circ img {
+  margin-left: -34px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Big background image in testimonials section */
+/* line 1007, compass/rapidhost.scss */
+.rh_testimonials_bg {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 620px;
+}
+
+/* line 1015, compass/rapidhost.scss */
+.rh_testimonial_text {
+  font-style: italic;
+  border: 1px solid #eee;
+  padding: 10px 55px;
+  height: 85px;
+  position: relative;
+}
+
+/* line 1023, compass/rapidhost.scss */
+.rh_testimonial_text_quote {
+  position: absolute;
+  left: -5px;
+  top: -10px;
+  color: #ddd;
+  font-size: 40px;
+}
+
+/* line 1031, compass/rapidhost.scss */
+.rh_testimonial_text_quote_r {
+  position: absolute;
+  right: -5px;
+  bottom: -10px;
+  color: #ddd;
+  font-size: 40px;
+}
+
+/* FAQ */
+/* line 1040, compass/rapidhost.scss */
+.panel-heading {
+  background-color: #86bf44 !important;
+  /* overwrite bootstrap */
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 1046, compass/rapidhost.scss */
+.panel {
+  border: 0;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+/* line 1052, compass/rapidhost.scss */
+.panel-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
+/* line 1057, compass/rapidhost.scss */
+.panel-title a {
+  text-decoration: none;
+}
+/* line 1061, compass/rapidhost.scss */
+.panel-title a i {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 1066, compass/rapidhost.scss */
+.panel-collapse {
+  margin: 1px 0;
+  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 15px;
+}
+
+/* About section used on almost every subpage */
+/* line 1074, compass/rapidhost.scss */
+.rh_about {
+  padding-top: 20px;
+  min-height: 360px;
+  background: #000 url(../img/bg2.png) repeat scroll top left;
+  color: #86bf44;
+  font-size: 18px;
+  border-top: 10px solid #86bf44;
+}
+
+/* line 1083, compass/rapidhost.scss */
+.rh_about h2 {
+  text-align: left;
+  position: relative;
+  color: #fff;
+  line-height: 40px;
+  padding: 10px 0;
+}
+
+/* line 1091, compass/rapidhost.scss */
+.rh_about a {
+  color: #ddd;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+  transition: .1s all linear;
+}
+
+/* line 1099, compass/rapidhost.scss */
+.rh_about a:hover {
+  margin-left: 5px;
+  color: #86bf44;
+}
+
+/* line 1104, compass/rapidhost.scss */
+.rh_about h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 0;
+  border-bottom: 3px solid #86bf44;
+}
+
+/* line 1114, compass/rapidhost.scss */
+.rh_about_contact {
+  color: #ddd;
+  text-align: justify;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+}
+
+/* line 1124, compass/rapidhost.scss */
+.rh_about_contact a:hover {
+  margin-left: 0;
+}
+
+/* line 1128, compass/rapidhost.scss */
+.rh_about_contact .fa {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #86bf44;
+  text-align: center;
+  transition: .1s all linear;
+}
+
+/* line 1141, compass/rapidhost.scss */
+.rh_about_contact .fa:hover {
+  background: #6b9a35;
+}
+
+/* line 1145, compass/rapidhost.scss */
+.rh_about_about {
+  padding-left: 50px;
+}
+
+/* line 1149, compass/rapidhost.scss */
+.rh_about_links {
+  padding-left: 50px;
+}
+
+/* line 1153, compass/rapidhost.scss */
+.rh_about_offer {
+  padding-left: 50px;
+}
+
+/* Footer section with copyright */
+/* line 1158, compass/rapidhost.scss */
+footer {
+  background: #070707;
+  min-height: 80px;
+  color: #666;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+/* Go top button in footer */
+/* line 1168, compass/rapidhost.scss */
+.rh_go_top {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  font-size: 22px;
+}
+
+/* line 1174, compass/rapidhost.scss */
+.rh_go_top a {
+  color: #666;
+  transition: .1s all linear;
+}
+
+/* line 1179, compass/rapidhost.scss */
+.rh_go_top a:hover {
+  color: #86bf44;
+}
+
+/* Sliding login modal window at the top menu */
+/* line 1184, compass/rapidhost.scss */
+.rh_login_hook {
+  position: relative;
+  display: inline;
+}
+
+/* line 1189, compass/rapidhost.scss */
+.rh_login_modal {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: -110px;
+  padding: 20px;
+  width: 260px;
+  background: #86bf44;
+  color: #fff;
+  z-index: 100;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 1202, compass/rapidhost.scss */
+.rh_login_modal input {
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #6b9a35;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 1213, compass/rapidhost.scss */
+.rh_login_modal p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* line 1221, compass/rapidhost.scss */
+.rh_login_modal p a {
+  color: #fff;
+}
+
+/* line 1225, compass/rapidhost.scss */
+.rh_login_modal p a:hover {
+  color: #6b9a35;
+}
+
+/* line 1229, compass/rapidhost.scss */
+.rh_login_modal input[type=submit] {
+  background: #fff;
+  color: #86bf44;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1239, compass/rapidhost.scss */
+.rh_login_modal input[type=submit]:hover {
+  background: #f6f6f6;
+  color: #6b9a35;
+}
+
+/* line 1244, compass/rapidhost.scss */
+.rh_login_modal input[type=text], .rh_login_modal input[type=password] {
+  padding-left: 40px;
+  height: 40px;
+}
+
+/* Changing placeholder colors */
+/* line 1251, compass/rapidhost.scss */
+.rh_login_modal ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+}
+/* line 1254, compass/rapidhost.scss */
+.rh_login_modal :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 1;
+}
+/* line 1258, compass/rapidhost.scss */
+.rh_login_modal ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+/* line 1262, compass/rapidhost.scss */
+.rh_login_modal :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+/* line 1267, compass/rapidhost.scss */
+.rh_login_username, .rh_login_password {
+  position: relative;
+}
+/* line 1270, compass/rapidhost.scss */
+.rh_login_username .fa, .rh_login_password .fa {
+  position: absolute;
+  z-index: 1;
+  top: 18px;
+  font-size: 14px;
+  left: 15px;
+}
+
+/* Different resolutions */
+@media (max-width: 767px) {
+  /* line 1281, compass/rapidhost.scss */
+  aside.rh_top_menu .top-left {
+    display: none;
+  }
+
+  /* line 1284, compass/rapidhost.scss */
+  aside.rh_top_menu .top-right {
+    float: left;
+    text-align: left;
+  }
+
+  /* line 1289, compass/rapidhost.scss */
+  .rh_login_modal {
+    position: fixed;
+    right: 5px;
+    top: 38px;
+    left: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1298, compass/rapidhost.scss */
+  header {
+    min-height: 80px;
+    padding: 10px 20px 5px 20px;
+  }
+
+  /* line 1303, compass/rapidhost.scss */
+  .rh_logo_img {
+    width: 200px;
+  }
+
+  /* line 1307, compass/rapidhost.scss */
+  nav {
+    float: none;
+  }
+
+  /* line 1311, compass/rapidhost.scss */
+  nav ul li {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* line 1317, compass/rapidhost.scss */
+  .rh_dropdown {
+    top: 61px;
+    width: 300px;
+  }
+
+  /* line 1322, compass/rapidhost.scss */
+  .rh_dropdown ul li {
+    font-size: 16px;
+  }
+
+  /* line 1326, compass/rapidhost.scss */
+  section.rh_banner {
+    padding: 20px 30px 30px 30px;
+  }
+
+  /* line 1330, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_title {
+    font-size: 34px;
+  }
+
+  /* line 1334, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_subtitle {
+    font-size: 22px;
+  }
+
+  /* line 1338, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_bullets {
+    font-size: 16px;
+  }
+
+  /* line 1342, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_image {
+    margin: 60px auto 0 auto;
+    width: 300px !important;
+  }
+
+  /* line 1347, compass/rapidhost.scss */
+  section.rh_banner .owl-prev {
+    left: -10px;
+  }
+
+  /* line 1351, compass/rapidhost.scss */
+  section.rh_banner .owl-next {
+    right: -10px;
+  }
+
+  /* line 1355, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_badge {
+    font-size: 54px;
+    line-height: 64px;
+    width: 64px;
+    height: 64px;
+  }
+
+  /* line 1362, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_text {
+    width: 300px;
+  }
+
+  /* line 1366, compass/rapidhost.scss */
+  section.rh_sub_banner .container .rh_domain_desc h2 {
+    font-size: 28px;
+  }
+
+  /* line 1370, compass/rapidhost.scss */
+  .rh_stat h2 {
+    font-size: 28px;
+  }
+
+  /* line 1374, compass/rapidhost.scss */
+  .rh_stat > b {
+    font-size: 34px;
+  }
+
+  /* line 1378, compass/rapidhost.scss */
+  .rh_stat p {
+    margin: 15px 20px 0 20px;
+  }
+
+  /* line 1382, compass/rapidhost.scss */
+  .rh_contact {
+    font-size: 28px;
+  }
+
+  /* line 1386, compass/rapidhost.scss */
+  .rh_offer_option {
+    max-width: 900px;
+  }
+
+  /* line 1390, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) {
+    margin: 20px 0 20px auto;
+  }
+
+  /* line 1394, compass/rapidhost.scss */
+  .rh_offer_option h2 {
+    font-size: 24px;
+  }
+
+  /* line 1398, compass/rapidhost.scss */
+  a.rh_option_btn {
+    width: 160px;
+  }
+
+  /* line 1402, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_price {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  /* line 1407, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_check {
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  /* line 1412, compass/rapidhost.scss */
+  .rh_offer-option:nth-child(odd) span {
+    line-height: 14px;
+    font-size: 14px;
+  }
+
+  /* line 1417, compass/rapidhost.scss */
+  .rh_offer-option:nth-child(even) span {
+    line-height: 14px;
+    font-size: 14px;
+  }
+
+  /* line 1422, compass/rapidhost.scss */
+  .rh_testimonial_circ img {
+    margin-left: -24px;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 1428, compass/rapidhost.scss */
+  .rh_testimonial_text_quote, .rh_testimonial_text_quote_r {
+    font-size: 30px;
+  }
+
+  /* line 1432, compass/rapidhost.scss */
+  .rh_testimonial_text {
+    padding: 2px 25px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* line 1438, compass/rapidhost.scss */
+  .panel-collapse {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  /* line 1443, compass/rapidhost.scss */
+  .rh_about {
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1449, compass/rapidhost.scss */
+  header {
+    min-height: 80px;
+    padding: 10px 20px 5px 20px;
+  }
+
+  /* line 1454, compass/rapidhost.scss */
+  .rh_logo_img {
+    width: 200px;
+  }
+
+  /* line 1458, compass/rapidhost.scss */
+  nav {
+    min-height: 61px;
+    float: none;
+  }
+
+  /* line 1463, compass/rapidhost.scss */
+  nav ul li {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* line 1468, compass/rapidhost.scss */
+  .rh_dropdown {
+    top: 61px;
+    width: 300px;
+  }
+
+  /* line 1473, compass/rapidhost.scss */
+  .rh_dropdown ul li {
+    font-size: 16px;
+  }
+
+  /* line 1477, compass/rapidhost.scss */
+  section.rh_banner {
+    padding: 20px 30px 30px 30px;
+  }
+
+  /* line 1481, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_title {
+    font-size: 34px;
+  }
+
+  /* line 1485, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_subtitle {
+    font-size: 22px;
+  }
+
+  /* line 1489, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_bullets {
+    font-size: 16px;
+  }
+
+  /* line 1493, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 1498, compass/rapidhost.scss */
+  section.rh_banner .owl-prev {
+    left: -10px;
+  }
+
+  /* line 1502, compass/rapidhost.scss */
+  section.rh_banner .owl-next {
+    right: -10px;
+  }
+
+  /* line 1506, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_badge {
+    font-size: 44px;
+    line-height: 54px;
+    width: 54px;
+    height: 54px;
+  }
+
+  /* line 1513, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_left {
+    width: 0 !important;
+  }
+
+  /* line 1517, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_right {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* line 1522, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain .rh_price {
+    font-size: 20px;
+  }
+
+  /* line 1526, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain .rh_slide_domain_name {
+    font-size: 16px;
+  }
+
+  /* line 1530, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 1535, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_submit {
+    font-size: 14px;
+    height: 50px;
+    width: 100px;
+    padding: 5px 15px 5px 5px;
+  }
+
+  /* line 1542, compass/rapidhost.scss */
+  section.rh_sub_banner .container select.rh_domain_list {
+    font-size: 14px;
+    height: 50px;
+    width: 72px;
+    padding: 10px 5px;
+  }
+
+  /* line 1549, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_text {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  /* line 1554, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_text {
+    width: 220px;
+  }
+
+  /* line 1558, compass/rapidhost.scss */
+  section.rh_sub_banner .container .rh_domain_desc h2 {
+    font-size: 22px;
+  }
+
+  /* line 1562, compass/rapidhost.scss */
+  .rh_stat {
+    min-height: 240px;
+    border-right: 0;
+  }
+
+  /* line 1567, compass/rapidhost.scss */
+  .rh_stat h2 {
+    font-size: 28px;
+  }
+
+  /* line 1571, compass/rapidhost.scss */
+  .rh_stat > b {
+    font-size: 34px;
+  }
+
+  /* line 1575, compass/rapidhost.scss */
+  .rh_stat p {
+    margin: 15px 20px 0 20px;
+  }
+
+  /* line 1579, compass/rapidhost.scss */
+  .rh_contact {
+    font-size: 20px;
+    min-height: 80px;
+    line-height: 80px;
+  }
+
+  /* line 1585, compass/rapidhost.scss */
+  .rh_offer_option {
+    max-width: 680px;
+    min-height: 70px;
+  }
+
+  /* line 1590, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) h2 {
+    border-bottom: 70px solid #fff;
+    border-right: 10px solid transparent;
+    padding-left: 5px;
+  }
+
+  /* line 1596, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) h2 {
+    border-bottom: 70px solid #fff;
+    border-left: 10px solid transparent;
+  }
+
+  /* line 1601, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) {
+    margin: 20px 0 20px auto;
+  }
+
+  /* line 1605, compass/rapidhost.scss */
+  .rh_offer_option h2 {
+    font-size: 18px;
+    line-height: 70px;
+  }
+
+  /* line 1610, compass/rapidhost.scss */
+  a.rh_option_btn {
+    width: 140px;
+    height: 70px;
+  }
+
+  /* line 1615, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) a.rh_option_btn {
+    -moz-box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+    box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+  }
+
+  /* line 1619, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) a.rh_option_btn {
+    -moz-box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+  }
+
+  /* line 1623, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) a.rh_option_btn:before {
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #fff;
+    right: -35px;
+  }
+
+  /* line 1630, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) a.rh_option_btn:before {
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid #fff;
+    left: -35px;
+  }
+
+  /* line 1637, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_price {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 18px !important;
+  }
+
+  /* line 1643, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_check {
+    line-height: 20px;
+    font-size: 18px;
+  }
+
+  /* line 1648, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) span {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  /* line 1653, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) span {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  /* line 1658, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) span:first-of-type, .rh_offer_option:nth-child(even) span:first-of-type {
+    margin-top: 18px;
+  }
+
+  /* line 1662, compass/rapidhost.scss */
+  .rh_about {
+    padding-bottom: 10px;
+  }
+
+  /* line 1666, compass/rapidhost.scss */
+  .rh_about h2 {
+    text-align: center;
+  }
+
+  /* line 1670, compass/rapidhost.scss */
+  .rh_about h2::before {
+    width: 100%;
+  }
+
+  /* line 1674, compass/rapidhost.scss */
+  .rh_about_about, .rh_about_links, .rh_about_offer {
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  /* line 1679, compass/rapidhost.scss */
+  .rh_stat_bg {
+    font-size: 180px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1685, compass/rapidhost.scss */
+  header {
+    min-height: 80px;
+    padding: 10px 20px 5px 20px;
+  }
+
+  /* line 1690, compass/rapidhost.scss */
+  .rh_logo_img {
+    width: 200px;
+  }
+
+  /* line 1694, compass/rapidhost.scss */
+  nav {
+    min-height: 61px;
+    float: none;
+  }
+
+  /* line 1699, compass/rapidhost.scss */
+  nav ul li {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* line 1704, compass/rapidhost.scss */
+  .rh_dropdown {
+    top: 61px;
+    width: 240px;
+    left: -70px;
+  }
+
+  /* line 1710, compass/rapidhost.scss */
+  .rh_dropdown ul li {
+    font-size: 14px;
+  }
+
+  /* line 1714, compass/rapidhost.scss */
+  section.rh_banner {
+    padding: 20px 30px 30px 30px;
+  }
+
+  /* line 1718, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_title {
+    font-size: 34px;
+  }
+
+  /* line 1722, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_subtitle {
+    font-size: 22px;
+  }
+
+  /* line 1726, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_bullets {
+    font-size: 16px;
+  }
+
+  /* line 1730, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 1735, compass/rapidhost.scss */
+  section.rh_banner .owl-prev {
+    left: -10px;
+  }
+
+  /* line 1739, compass/rapidhost.scss */
+  section.rh_banner .owl-next {
+    right: -10px;
+  }
+
+  /* line 1743, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_badge {
+    font-size: 24px;
+    line-height: 34px;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #86bf44;
+    -moz-box-shadow: 0 0 0 2px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 0 2px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 2px white, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 1752, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_left {
+    width: 0 !important;
+  }
+
+  /* line 1756, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_right {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* line 1761, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain .rh_price {
+    display: none;
+    font-size: 14px;
+  }
+
+  /* line 1766, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain .rh_slide_domain_name {
+    font-size: 12px;
+  }
+
+  /* line 1770, compass/rapidhost.scss */
+  section.rh_banner .rh_slide_domain {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* line 1775, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_submit {
+    font-size: 14px;
+    height: 50px;
+    width: 18%;
+    padding: 5px 15px 5px 5px;
+  }
+
+  /* line 1782, compass/rapidhost.scss */
+  section.rh_sub_banner .container select.rh_domain_list {
+    font-size: 14px;
+    height: 50px;
+    width: 12%;
+    padding: 10px 5px;
+  }
+
+  /* line 1789, compass/rapidhost.scss */
+  section.rh_sub_banner .container input.rh_domain_text {
+    font-size: 14px;
+    height: 50px;
+    width: 70%;
+  }
+
+  /* line 1795, compass/rapidhost.scss */
+  section.rh_sub_banner .container .rh_domain_desc h2 {
+    font-size: 22px;
+    display: none;
+  }
+
+  /* line 1800, compass/rapidhost.scss */
+  .rh_stat {
+    min-height: 240px;
+    border-right: 0;
+  }
+
+  /* line 1805, compass/rapidhost.scss */
+  .rh_stat h2 {
+    font-size: 28px;
+  }
+
+  /* line 1809, compass/rapidhost.scss */
+  .rh_stat > b {
+    font-size: 34px;
+  }
+
+  /* line 1813, compass/rapidhost.scss */
+  .rh_stat p {
+    margin: 15px 20px 0 20px;
+  }
+
+  /* line 1817, compass/rapidhost.scss */
+  .rh_contact {
+    font-size: 20px;
+    min-height: 80px;
+    line-height: 80px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  /* line 1824, compass/rapidhost.scss */
+  .rh_contact_cell:nth-child(even) {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 1830, compass/rapidhost.scss */
+  .rh_offer_option {
+    min-height: 70px;
+    background: #86bf44;
+  }
+
+  /* line 1835, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) h2 {
+    border-bottom: 70px solid transparent;
+    border-right: 70px solid #86bf44;
+    padding-left: 15px;
+  }
+
+  /* line 1841, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) h2 {
+    border-bottom: 70px solid transparent;
+    border-left: 70px solid #86bf44;
+  }
+
+  /* line 1846, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) {
+    margin: 20px 0 20px auto;
+  }
+
+  /* line 1850, compass/rapidhost.scss */
+  .rh_offer_option h2 {
+    font-size: 18px;
+    line-height: 70px;
+    color: #fff;
+  }
+
+  /* line 1856, compass/rapidhost.scss */
+  a.rh_option_btn {
+    width: 50%;
+    height: 70px;
+  }
+
+  /* line 1861, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) a.rh_option_btn {
+    -moz-box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+    box-shadow: -5px 0 0 0 rgba(255, 255, 255, 0.2);
+  }
+
+  /* line 1865, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) a.rh_option_btn {
+    -moz-box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 0 0 0 rgba(255, 255, 255, 0.2);
+  }
+
+  /* line 1869, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_price {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 18px !important;
+  }
+
+  /* line 1875, compass/rapidhost.scss */
+  a.rh_option_btn span.rh_option_check {
+    line-height: 20px;
+    font-size: 18px;
+  }
+
+  /* line 1880, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) span {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  /* line 1885, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(even) span {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  /* line 1890, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) span:first-of-type, .rh_offer_option:nth-child(even) span:first-of-type {
+    margin-top: 18px;
+  }
+
+  /* line 1894, compass/rapidhost.scss */
+  .rh_offer_option > span {
+    display: none;
+  }
+
+  /* line 1898, compass/rapidhost.scss */
+  .rh_offer_option:nth-child(odd) a.rh_option_btn:before, .rh_offer_option:nth-child(even) a.rh_option_btn:before {
+    display: none;
+  }
+
+  /* line 1902, compass/rapidhost.scss */
+  .rh_testimonials:before {
+    display: none;
+  }
+
+  /* line 1906, compass/rapidhost.scss */
+  .rh_testimonial_circ img {
+    margin-left: -24px;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 1912, compass/rapidhost.scss */
+  .rh_testimonial_text_quote, .rh_testimonial_text_quote_r {
+    font-size: 24px;
+  }
+
+  /* line 1916, compass/rapidhost.scss */
+  .rh_testimonial_text {
+    padding: 2px 25px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* line 1922, compass/rapidhost.scss */
+  .panel-collapse {
+    padding: 3px;
+    font-size: 14px;
+  }
+
+  /* line 1927, compass/rapidhost.scss */
+  .rh_about {
+    padding-bottom: 10px;
+  }
+
+  /* line 1931, compass/rapidhost.scss */
+  .rh_about h2 {
+    text-align: center;
+  }
+
+  /* line 1935, compass/rapidhost.scss */
+  .rh_about h2::before {
+    width: 100%;
+  }
+
+  /* line 1939, compass/rapidhost.scss */
+  .rh_about_about, .rh_about_links, .rh_about_offer {
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  /* line 1944, compass/rapidhost.scss */
+  .rh_stat_bg {
+    font-size: 180px;
+  }
+}

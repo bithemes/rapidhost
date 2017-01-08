@@ -1,0 +1,69 @@
+// ABOUT US STYLES
+section.rh_about_page {
+  min-height: 800px;
+  border-top: 5px solid $main_color;
+  padding-top: 20px;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.rh_about_page_logo {
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+}
+
+.rh_biglogo {
+  display: block;
+  margin: auto;
+}
+
+.rh_about_bg {
+  position: absolute;
+  left: 80px;
+  top: 180px;
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 570px;
+}
+
+.rh_about_team {
+  width: 100%;
+  margin-top: 20px;
+  @include box-shadow(10px 10px 0 0 rgba(0,0,0,0.1),20px 20px 0 0 rgba(0,0,0,0.1));
+}
+
+.rh_about_building {
+  width: 100%;
+  margin-top: 20px;
+  @include box-shadow(-10px 10px 0 0 rgba(0,0,0,0.1),-20px 20px 0 0 rgba(0,0,0,0.1));
+}
+
+.rh_about_page_contact .fa {
+  color: $main_color;
+}
+
+/* Google Maps */
+.rh_google_container {
+  position: relative;
+  padding-bottom: 560px;
+  margin-top: 40px;
+  height: 0;
+  overflow: hidden;
+}
+
+.rh_google_container iframe, .rh_google_container object, .rh_google_container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 560px;
+}
+/* END OF ABOUT US STYLES */

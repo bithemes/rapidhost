@@ -1,0 +1,10 @@
+// This file contains global variables used in other .scss files
+
+$main_color: #0686c7; // Main theme color
+$contact_color: #fc6220; // Contact Background Color (used in web,vps,dedicated,ssl and domains)
+$main_color_dark: scale_lightness($main_color, -20); // Dark shade of main theme color
+$text_color: #111; // Main body color
+$text_subcolor: #666; // Paragraph text color
+$bestseller: #ff5722; // Bestseller Background Color
+$vps_color: #0686c7; // VPS Background Color
+$bullet_color: #3cbc10; // Slider Bullet Color

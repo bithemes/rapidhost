@@ -1,0 +1,58 @@
+// ERROR 404 STYLES
+section.rh_error_404 {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid $main_color;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Makes background darker to increase readability */
+section.rh_error_404:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Header title text */
+section.rh_error_404 h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+}
+
+/* Header subtitle text */
+section.rh_error_404 p {
+  color: #fff;
+  font-size: 26px;
+}
+
+/* Background big icon */
+.rh_error_404_bg {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 40px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 470px;
+  z-index: -1;
+}
+
+/* Lower res - header title font size adjustment */
+@media (max-width:767px) {
+  section.rh_error_404 h2 {
+    font-size: 120px !important;
+  }
+}

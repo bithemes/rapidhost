@@ -1,0 +1,123 @@
+// SSL STYLES
+section.rh_ssl_offer {
+  background: #fff;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Contact Section */
+.rh_ssl_contact {
+  min-height: 100px;
+  background: $contact_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.rh_ssl_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.rh_ssl_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+.rh_ssl_contact p {
+  color: rgba(255,255,255,0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+.rh_ssl_desc {
+  text-align: left;
+  margin: 20px 0 50px 0;
+}
+
+.rh_ssl_ico {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  float: left;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.rh_ssl_column {
+  position: relative;
+  margin-top: 40px;
+  background: #222;
+}
+
+.rh_ssl_logo {
+  display: inline-block;
+  margin: 15px;
+}
+
+span.rh_ssl_type {
+  padding: 12px 0;
+  color: #fff;
+  display: block;
+  border-top: 5px solid rgba(255, 255, 255, 0.2);
+  background: $main_color;
+}
+
+span.rh_ssl_feature:nth-child(odd) {
+  background: #eee;
+}
+
+span.rh_ssl_feature {
+  display: block;
+  padding: 10px;
+  color: #222;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+span.rh_ssl_start {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+span.rh_ssl_start a {
+  background: $main_color;
+  font-size: 26px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+span.rh_ssl_start a:hover {
+  background: $main_color_dark;
+}
+
+@media (max-width:767px) {
+  .rh_ssl_contact h2 {
+    font-size: 36px !important;
+  }
+}

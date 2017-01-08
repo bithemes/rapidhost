@@ -1,0 +1,320 @@
+// DEDICATED HOSTING STYLES
+section.rh_ded_tables {
+  background: #fff;
+  color: #111;
+  min-height: 520px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+section.rh_ded_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid $main_color;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+section.rh_ded_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+  outline: 5px solid #fff;
+}
+
+section.rh_ded_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+p.rh_ded_params {
+  color: $main_color;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rh_ded_table {
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0 40px 0;
+  border-left: 10px solid $main_color;
+  border-right: 10px solid $main_color;
+}
+
+.rh_ded_table th {
+  background: $main_color;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.rh_ded_table td {
+  padding: 8px;
+  color: #111;
+  font-weight: 300;
+  position: relative;
+  border-bottom: 2px solid $main_color;
+}
+
+.rh_ded_table tbody tr:nth-child(odd) td {
+  background: #f6f6f6;
+}
+
+.rh_ded_table tbody tr td:last-child {
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rh_ded_table tbody tr td:first-child {
+  font-family: 'Roboto', sans-serif;
+  color: $main_color;
+}
+
+a.rh_ded_choose {
+  text-decoration: none;
+  color: $main_color;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+a.rh_ded_choose:hover {
+  color: $main_color_dark;
+}
+
+.rh_ded_contact {
+  min-height: 100px;
+  background: $contact_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.rh_ded_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.rh_ded_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+.rh_ded_contact p {
+  color: rgba(255,255,255,0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+section.rh_ded_features {
+  background: #fff;
+  color: #444;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+section.rh_ded_features .row {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section.rh_ded_features .row:nth-child(odd) .rh_ded_icon {
+  float: right;
+}
+
+section.rh_ded_features .row:first-child {
+  @include box-shadow(none);
+  background: none;
+  text-align: center;
+  border-bottom: 0;
+}
+
+section.rh_ded_features .row:last-child {
+  border-bottom: 0;
+}
+
+section.rh_ded_features .row p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+section.rh_ded_features .row .col-lg-6:first-child {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+section.rh_ded_features .row .col-lg-6:nth-child(2) {
+  text-align: right;
+}
+
+section.rh_ded_features h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid $main_color;
+}
+
+section.rh_ded_features i.fa {
+  text-align: center;
+  display: block;
+  font-size: 120px;
+  color: $main_color;
+  margin-top: 10px;
+}
+
+.rh_ded_icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
+
+.rh_ded_money {
+  min-height: 100px;
+  background: $main_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.rh_ded_money h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 35px 0 15px 0;
+}
+
+.rh_ded_money p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 40px 0;
+}
+
+.rh_ded_sat {
+  width: 130px;
+  height: 130px;
+  margin-top: 35px;
+}
+
+@media (max-width:767px) {
+  .rh_ded_table {
+    border-top: 10px solid $main_color;
+    border-bottom: 10px solid $main_color;
+  }
+
+  .rh_ded_table thead {
+    display: none;
+  }
+
+  .rh_ded_table td {
+    display: block;
+    border-bottom: 0;
+  }
+
+  .rh_ded_table tr {
+    border-bottom: 2px solid $main_color;
+  }
+
+  .rh_ded_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  section.rh_ded_features .row .col-lg-6:first-child{
+    border-right: 0;
+  }
+
+  section.rh_ded_features .row {
+    border-bottom: 0;
+  }
+
+  section.rh_ded_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  section.rh_ded_features .row p {
+    margin-bottom: 10px;
+  }
+
+  .rh_ded_contact h2 {
+    font-size: 36px !important;
+  }
+
+  .rh_ded_sat {
+    display: none;
+  }
+
+  .rh_ded_money {
+    padding: 10px;
+  }
+
+  .rh_ded_money h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .rh_ded_money p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  section.rh_ded_title h2 {
+    font-size: 80px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .rh_ded_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  section.rh_ded_features .row .col-lg-6:first-child{
+    border-right: 0;
+  }
+
+  section.rh_ded_features .row {
+    border-bottom: 0;
+  }
+
+  section.rh_ded_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  section.rh_ded_features .row p {
+    margin-bottom: 10px;
+  }
+}

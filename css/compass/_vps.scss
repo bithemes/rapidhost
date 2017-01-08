@@ -1,0 +1,316 @@
+// VPS HOSTING STYLES
+section.rh_vps_tables {
+  background: #fff;
+  color: #111;
+  min-height: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+section.rh_vps_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 520px;
+  border-top: 5px solid $main_color;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+section.rh_vps_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 140px;
+  outline: 5px solid #fff;
+}
+
+section.rh_vps_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+p.rh_vps_params {
+  color: $main_color;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rh_vps_column {
+  position: relative;
+  margin-top: 40px;
+}
+
+.rh_vps_column h3 {
+  color: #444;
+  border: 1px solid #dddddd;
+  margin: 0;
+  font-size: 30px;
+  @include border-radius(30px 30px 0 0);
+  padding: 5px 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+span.rh_vps_price {
+  padding: 12px 0;
+  color: #fff;
+  display: block;
+  background: $vps_color;
+}
+
+span.rh_vps_price b {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+span.rh_vps_start a {
+  background: $vps_color;
+  font-size: 26px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+
+span.rh_vps_start a:hover {
+  background: #111;
+}
+
+span.rh_vps_feature {
+  display: block;
+  padding: 10px;
+  color: #222;
+  background: #fff;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+span.rh_vps_feature:nth-child(odd) {
+  background: #eee;
+}
+
+.rh_vps_notice {
+  margin-top: 15px;
+  margin-left: 1px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.rh_vps_contact {
+  min-height: 100px;
+  background: $contact_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+.rh_vps_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.rh_vps_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+.rh_vps_contact p {
+  color: rgba(255,255,255,0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+section.rh_vps_features {
+  background: #fff;
+  color: #444;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+section.rh_vps_features .row {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section.rh_vps_features .row:nth-child(odd) .rh_vps_icon {
+  float: right;
+}
+
+section.rh_vps_features .row:first-child {
+  @include box-shadow(none);
+  background: none;
+  text-align: center;
+  border-bottom: 0;
+}
+
+section.rh_vps_features .row:last-child {
+  border-bottom: 0;
+}
+
+section.rh_vps_features .row p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+section.rh_vps_features .row .col-lg-6:first-child {
+  border-right: 1px solid #ddd;
+  text-align: left;
+}
+
+section.rh_vps_features .row .col-lg-6:nth-child(2) {
+  text-align: right;
+}
+
+section.rh_vps_features h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid $main_color;
+}
+
+section.rh_vps_features i.fa {
+  text-align: center;
+  display: block;
+  font-size: 120px;
+  color: $main_color;
+  margin-top: 10px;
+}
+
+.rh_vps_icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px;
+}
+
+.rh_vps_money {
+  min-height: 100px;
+  background: $main_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.rh_vps_money h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 35px 0 15px 0;
+}
+
+.rh_vps_money p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 40px 0;
+}
+
+.rh_vps_sat {
+  width: 130px;
+  height: 130px;
+  margin-top: 35px;
+}
+
+@media (max-width:767px) {
+  .rh_vps_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  section.rh_vps_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  section.rh_vps_features .row {
+    border-bottom: 0;
+  }
+
+  section.rh_vps_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  section.rh_vps_features .row p {
+    margin-bottom: 10px;
+  }
+
+  .rh_vps_contact h2 {
+    font-size: 36px !important;
+  }
+
+  .rh_vps_sat {
+    display: none;
+  }
+
+  .rh_vps_money {
+    padding: 10px;
+  }
+
+  .rh_vps_money h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  .rh_vps_money p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+  }
+
+  section.rh_vps_title h2 {
+    font-size: 80px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .rh_vps_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  section.rh_vps_features .row .col-lg-6:first-child {
+    border-right: 0;
+  }
+
+  section.rh_vps_features .row {
+    border-bottom: 0;
+  }
+
+  section.rh_vps_features .row .col-lg-6 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  section.rh_vps_features .row p {
+    margin-bottom: 10px;
+  }
+}

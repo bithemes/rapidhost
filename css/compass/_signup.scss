@@ -1,0 +1,124 @@
+// Signup and Login Subpage
+section.rh_signup {
+  background: $main_color_dark;
+  color: #fff;
+  border-top: 5px solid $main_color;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  position: relative;
+
+  /* Header Text */
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  /* Input placeholder colors */
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity: 1;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity: 1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+
+  /* Main Containers */
+  .rh_signup_login, .rh_signup_signup {
+    margin-top: 20px;
+    background: $main_color;
+    @include border-radius(5px);
+    padding: 25px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.05); /* Transparent outline */
+
+    .rh_signup_login_username, .rh_signup_login_password, .rh_signup_signup_username, .rh_signup_signup_password,
+    .rh_signup_signup_email, .rh_signup_signup_repeat {
+      position: relative;
+    }
+
+    input {
+      width: 100%;
+      @include border-radius(5px);
+      background: $main_color_dark;
+      color: #fff;
+      border: 0;
+      outline: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    /* Text Input */
+    input[type=text] {
+      padding-left: 70px;
+      height: 50px;
+      font-size: 18px;
+    }
+
+    /* Password Input */
+    input[type=password] {
+      padding-left: 70px;
+      height: 50px;
+      font-size: 18px;
+    }
+
+    /* Submit Button */
+    input[type=submit] {
+      background: #fff;
+      color: $main_color;
+      font-weight: bold;
+      font-size: 26px;
+      padding: 15px 0;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    input[type=submit]:hover {
+      background: #f6f6f6;
+      color: $main_color_dark;
+    }
+
+    /* Placeholder icons */
+    .rh_signup_login_username .fa, .rh_signup_login_password .fa, .rh_signup_signup_username .fa, .rh_signup_signup_password .fa,
+    .rh_signup_signup_email .fa, .rh_signup_signup_repeat .fa {
+      position: absolute;
+      z-index: 1;
+      top: 32px;
+      font-size: 22px;
+      left: 32px;
+    }
+
+    .rh_signup_signup_email .fa {
+      left: 29px;
+    }
+
+    p a {
+      color: #fff;
+      text-decoration: none;
+      transition: .1s all linear;
+    }
+
+    p a:hover {
+      color: $main_color_dark;
+    }
+  }
+}
+
+/* Big background icon */
+.rh_signup_bg {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 470px;
+}

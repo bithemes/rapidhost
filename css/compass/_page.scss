@@ -1,0 +1,104 @@
+// Page Styles
+section.rh_page_title {
+  background: url(../img/header_bg.jpg);
+  color: #fff;
+  min-height: 300px;
+  border-top: 5px solid $main_color;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Makes background darker to increase readability */
+section.rh_page_title:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.75);
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Header title text with outline */
+section.rh_page_title h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 120px;
+  outline: 5px solid #fff;
+  overflow-wrap: break-word;
+}
+
+/* Header subtitle text with outline */
+section.rh_page_title p {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Main Page Section */
+section.rh_page_section {
+  background: #fff;
+  color: #111;
+  min-height: 720px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+section.rh_page_section h2 {
+  text-align: center;
+}
+
+section.rh_page_section p {
+  padding: 5px;
+}
+
+/* Contact Section */
+.rh_page_contact {
+  min-height: 100px;
+  background: $contact_color;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.rh_page_contact h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.rh_page_contact h2 {
+  color: #fff;
+  font-size: 56px;
+  margin: 0 0 15px 0;
+}
+
+.rh_page_contact p {
+  color: rgba(255,255,255,0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0 20px 0;
+}
+
+/* Mobile version - remove outline from header title text */
+@media (max-width:767px) {
+  section.rh_page_title h2 {
+    font-size: 100px;
+    outline: none;
+
+  }
+}

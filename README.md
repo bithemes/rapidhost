@@ -1,5 +1,8 @@
 ##ABOUT RAPIDHOST
 **RapidHost** is a responsive hosting & domains Bootstrap template with modern and light design. It is a great choice for small and medium hosting and domain companies.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12776996/21751285/3b4d9bbc-d5c5-11e6-9b1c-7e62a9e719a9.jpg)
+
 ##MAIN FEATURES
 - 14 HTML Files
 - Modern and Light Design
